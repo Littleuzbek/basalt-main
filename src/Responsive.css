@@ -1,0 +1,528 @@
+@media screen and (max-width: 992px) {
+
+  #root {
+  overflow: hidden;
+}
+
+  .main-header > div {
+    width: 90% !important;
+  }
+
+  /* .before-navigation {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  } */
+
+  /* .home-logo {
+    height: 80px !important;
+  }
+
+  .before-navigation-item {
+    flex-direction: column;
+    text-align: center;
+  } */
+
+
+  .header-mid {
+    height: 300px;
+  }
+
+  .team-card > div:nth-child(1)::before,
+  .header-mid::before {
+    content: none !important;
+  }
+
+  .header-mid > video {
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  #slider-bg ,
+  .slick-dots ,
+  .before-navigation,
+  .action-container,
+  .project-cardd > div > p,
+  .home-navigation,
+  .main-header > div > ul,
+  .nav-container > div:nth-child(1),
+  .end-side-slides > div,
+  .end-product-action,
+  .presentation-slider > div:nth-child(1),
+  .Partners{
+    display: none !important;
+  }
+
+  .nav-container {
+    height: 100px !important;
+    justify-content: flex-start !important;
+  }
+
+  .nav-container > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    width: 100% !important;
+    padding: 0 15px;
+    position: relative;
+  }
+
+  .nav-container > div > img {
+    height: 70px;
+  }
+
+  .menuBtn {
+    width: 45px;
+    height: 40px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+  }
+
+  .menuBtn > .btn {
+    width: 100%;
+    height: 70%;
+    color: white;
+  }
+
+  .menu-container {
+    display: block !important;
+    position: absolute;
+    z-index: 4;
+    left: 0;
+    top: 100px !important;
+    width: 100%;
+    height: auto;
+    padding: 0 15px;
+    animation: dropAnim 0.3s forwards;
+  }
+
+  .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-item {
+    background-color: white;
+    width: 100%;
+    padding: 20px 15px;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    border-bottom: 1px solid var(--orange);
+    border-top: 1px solid var(--orange);
+    text-decoration: none;
+  }
+
+  .menu-item.active {
+    background-color: var(--orange);
+    color: white;
+  }
+
+  .nav-products-sm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+
+  .nav-products-sm > p {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-products-sm > svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .sub-menu {
+    width: 100%;
+    margin: 15px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-menu > span {
+    padding: 15px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+
+  .header-bottom,
+  .contact-component{
+    height: auto !important;
+    margin: 0 0 60px !important;
+  }
+
+  .solution-slider {
+    position: relative !important;
+    overflow: unset !important;
+  }
+
+  .solution-slider > div {
+    width: 100% !important;
+  }
+
+  .action-container-sm {
+    position: absolute !important;
+    top: 103%;
+    left: 0;
+    margin: 0 0 50px !important;
+    height: auto !important;
+    display: flex !important;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .action-container-sm > svg {
+    width: 50px;
+    height: 50px;
+    background-color: var(--orange);
+  }
+  .action-container-sm > svg:nth-child(2) {
+    rotate: 180deg;
+  }
+
+  .project-card-slider > div,
+  #solution-slider-card:hover > div,
+  .solution-slider-card:nth-child(1):hover > div, 
+  .solution-slider-card:nth-child(2):hover > div, 
+  .solution-slider-card:nth-child(3):hover > div, 
+  .solution-slider-card:nth-child(5):hover > div, 
+  .solution-slider-card:nth-child(7):hover > div {
+    transform: none !important;
+  }
+
+  .testimonial > .action-container {
+    display: flex !important;
+  }
+
+  .slick-list > div {
+    gap: 0 !important;
+  }
+
+  .slick-track > div {
+    padding: 0 15px !important;
+  }
+
+  .projects-page > div {
+    width: 100% !important;
+    padding: 0 15px;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .project-cardd,
+  .project-cardd > div {
+    height: auto !important;
+    gap: 20px;
+  }
+
+  .project-cardd:hover > div {
+    animation: none !important;
+  }
+
+  .project-slider:hover > div,
+  .project-card-slider > div,
+  #solution-slider-card:hover > div,
+  .solution-card:nth-child(4):hover > div,
+  .solution-card:nth-child(6):hover > div,
+  .presentation-slider{
+    animation: none;
+    transform: none !important;
+    position: static !important;
+  }
+
+  .project-card-slider > div > h4{
+    padding: 25px 20px 5px !important;
+  }
+
+  .welcome > div {
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .projects-page > div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .news,
+  .welcome > div > img,
+  .welcome-words,
+  .FAQ,
+  .testimonial,
+  .about-product-page > div,
+  .contact-component {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+
+  .welcome-words > button,
+  .consulting > a{
+    background-color: var(--orange) !important;
+    color: white !important;
+    border: none !important;
+  }
+
+  #slider-sm {
+    justify-content: center !important;
+  }
+
+  .slider-project > div > .action-container-sm {
+    top: auto !important;
+    bottom: 40px !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .team {
+    height: auto !important;
+    background-size: cover !important;
+    background-position: 70% center !important;
+  }
+
+  .news,
+  .team > div{
+    width: fit-content !important;
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 20px;
+  }
+
+  .testimonial-contatiner > div {
+    width: 100% !important;
+    height: auto !important;
+    flex-direction: column;
+    justify-content: center !important;
+    gap: 50px;
+  }
+
+  .end-side-slides{
+    justify-content: space-around;
+  }
+  
+  .presentation-slider > .end-product-slider,
+  .end-side-slides > span,
+  .Partners_main > .partners {
+    display: flex !important;
+  }
+
+  .presentation-slider > .end-product-slider > img{
+    height: 300px;
+    object-fit: cover;
+  }   
+
+  .slider-partners,
+  .partners,
+  .contact-form > input:nth-child(-n + 4),
+  .contact-form,
+  .contact-info,
+  .news-item:nth-child(2) > div > div,
+  .news-item:nth-child(2) > div > img,
+  .news-item,
+  .team-card,
+  .presentation-slider,
+  .general-info,
+  .contact-item,
+  .Footer > div,
+  .contact-info > div{
+    width: 100% !important;
+  }
+
+  .partners,
+  .contact-form,
+  .contact-page,
+  .news-item:nth-child(2) > div,
+  .about-product-page > div,
+  .contact-info{
+    flex-direction: column !important;
+    height: auto !important;
+  }
+
+  .about-product-page > div:nth-child(1),
+  .contact-component{
+    gap: 30px !important;
+  }
+
+  .contact-component > div {
+    flex-direction: column;
+    width: 100% !important;
+  }
+
+  .news-item:nth-child(2) > div {
+    box-shadow: 0 5px 10px rgb(199, 199, 199);
+  }
+
+  .news-item:nth-child(2) > div > div {
+    text-align: center !important;
+    padding: 10px 40px 30px;
+  }
+
+  .contact-page {
+    width: 100% !important;
+    padding: 50px 15px !important;
+    gap: 20px !important;
+  }
+
+  .contact-form > input:nth-last-child(1) {
+    width: fit-content !important;
+    background-color: var(--orange) !important;
+    color: white !important;
+    border: none !important;
+  }
+
+  .contact-form > textarea {
+    height: 200px !important;
+  }
+
+  .project-card-slider > div > .moreBtn,
+  .home-map {
+    margin: 0 !important;
+  }
+
+  .partners {
+    align-items: center !important;
+  }
+
+  .partners > h2 {
+    width: auto !important;
+    text-align: center;
+    margin: 0 0 20px !important;
+  }
+
+  .about-page {
+    flex-direction: column;
+    padding: 50px 15px !important;
+  }
+
+  .about-page,
+  .about-page > div {
+    text-align: justify;
+    width: 100% !important;
+  }
+
+  .about {
+    margin: 0 0 30px;
+  }
+
+  .about > h3 {
+    text-align: center;
+  }
+
+  .about > span {
+    justify-content: center;
+  }
+
+  .about-img > img {
+    border-radius: 0 !important;
+  }
+
+  .contact-button {
+    bottom: 25px;
+    right: 25px;
+  }
+
+  @keyframes dropAnim {
+    from {
+      top: 110%;
+      opacity: 0;
+    }
+    to {
+      top: 100%;
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .welcome > div {
+    flex-direction: row;
+    width: 100% !important;
+    gap: 0 !important;
+  }
+
+  .welcome-words {
+    width: 55% !important;
+    text-align: justify;
+  }
+  .welcome > div > img {
+    width: 45% !important;
+    object-fit: cover;
+  }
+
+  .projects-page > div{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    justify-content: space-around !important;
+  }
+
+  .end-product-slider > img{
+    height: 390px !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .header-top > div,
+  .nav-container > div,
+  .welcome > div,
+  .testimonial-contatiner > div,
+  .partners,
+  .news,
+  .contact-component > div,
+  .projects-page > div,
+  .about-page,
+  .main-header > div,
+  .about-product-page > div{
+    width: 100% !important;
+    padding: 0 15px !important;
+  }
+  
+  .solution-slider > div,
+  .Partners{
+    width: 90% !important;
+  }
+
+  .welcome{
+    padding: 50px 0 !important;
+  }
+
+  .about-page{
+    padding: 30px 15px 0 !important;
+  }
+
+  .end-side-slides > div > img{
+    width: 8.438rem !important;
+  }
+
+  .news-item:nth-child(2) > div > img{
+    object-fit: cover;
+    object-position: 10% center;
+  }
+
+  .projects-page > div > .project-cardd{
+    width: 310px !important;
+  }
+
+  .solution-slider-card > div > h4{
+    padding: 6px 20px 0 !important;
+    font-size: 17px !important;
+  }
+}
+
+@media (min-width: 1550px) {
+  .end-side-slides > div > img{
+    width: 10.5rem !important;
+  }
+}
+
+@media (min-width: 1520px) {
+  .side-slides > div {
+    min-width: 170px !important;
+  }
+}
+

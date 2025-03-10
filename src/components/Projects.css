@@ -1,0 +1,213 @@
+.projects-page {
+  width: 100%;
+}
+
+.projects-page > div {
+  max-width: 1200px;
+  width: 75%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.project-cardd {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* background-color: #e0e0e0; */
+  overflow: hidden;
+}
+
+.project-cardd > img {
+  width: 100%;
+  min-height: 276px;
+  max-height: 276px;
+  object-fit: cover;
+}
+
+.project-cardd > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  transition: 0.3s;
+}
+
+.project-cardd > div > p {
+  padding: 0 20px;
+  text-wrap: wrap;
+  font-size: 14px;
+}
+
+.project-cardd > div > h4 {
+  padding: 20px 20px 0;
+  text-wrap: wrap;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#project-slider-fiber:hover > div{
+  transform: translateY(-120px);
+}
+
+#project-slider-geobasalt:hover > div{
+  transform: translateY(var(--height-geobasalt));
+}
+
+#project-slider-ecobasalt:hover > div{
+  transform: translateY(var(--height-ecobasalt));
+}
+
+#project-slider-wool:hover > div{
+  transform: translateY(-102px);
+}
+
+#project-slider-qqwool:hover > div{
+  transform: translateY(var(--height-qqwool));
+}
+
+#project-slider-goldfiber:hover > div{
+  transform: translateY(var(--height-goldfiber));
+}
+
+#project-slider-basfiber:hover > div{
+  transform: translateY(var(--height-basfiber));
+}
+
+#project-slider-quarry:hover > div{
+  transform: translateY(var(--height-quarry));
+}
+
+.project-card-slider > div > .moreBtn {
+  margin: 20px 0 0;
+}
+
+.project-card-slider > div > h4 {
+  padding: 25px 20px 25px;
+}
+
+.rus-wool {
+  padding: 10px 20px !important;
+}
+
+.solution-card > div > h4,
+.solution-slider-card > div > h4{
+  padding: 13px 20px;
+}
+
+.solution-card:hover > div, 
+/* .solution-card:nth-child(2):hover > div, 
+.solution-card:nth-child(3):hover > div, 
+.solution-card:nth-child(5):hover > div,
+.solution-card:nth-child(7):hover > div, */
+/* .solution-slider-card:nth-child(1):hover > div, 
+.solution-slider-card:nth-child(2):hover > div, 
+.solution-slider-card:nth-child(3):hover > div, 
+.solution-slider-card:nth-child(5):hover > div, */
+.solution-slider-card:hover > div{
+  transform: translateY(-38%);
+} 
+
+/* #solution-slider-card:hover > div{
+  animation: none;
+  transform: translateY(-38%);
+} */
+
+#solution-slider-card > img{
+  min-height: 260px;
+}
+
+.moreBtn {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+
+.moreBtn > button {
+  width: 100%;
+  height: 100%;
+  background-color: #909090;
+  color: black;
+  font-weight: 500;
+  font-size: 17px;
+  border: none;
+  cursor: unset;
+}
+
+.moreBtn > button::before {
+  content: "Read more";
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 50px 0;
+  background-color: var(--orange);
+  color: white;
+  transform: translateX(-90%);
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.hoverBtn > button::before {
+  content: "Подробнее";
+}
+
+.moreBtn > button:hover::before {
+  border-radius: 0;
+  transform: translateX(0);
+}
+
+#slider-sm{
+  display: none !important;
+}
+
+.end-side-slides{
+  display: flex;
+}
+
+.end-side-slides > span{
+  display: none;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.end-active{
+  background-color: var(--orange) !important;
+}
+
+@keyframes fadeInUp {
+  to {
+    position: absolute;
+    transform: translateY(-40%);
+  }
+}
+
+@keyframes fadeInUpSlider {
+  to {
+    position: absolute;
+    transform: translateY(-61%);
+  }
+}
+
+@keyframes fillIn {
+  from {
+    width: 0%;
+    display: none;
+  }
+  to {
+    display: flex;
+    width: 100%;
+  }
+}

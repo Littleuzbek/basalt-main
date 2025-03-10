@@ -1,0 +1,36 @@
+.Topsection_main {
+    padding: 0.5rem 0rem;
+    background-color: rgb(34, 34, 34);
+    display: none;
+}
+
+.Topsection {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    justify-content: space-between;
+}
+
+.Phone_icon-top {
+    width: 1.2rem;
+}
+
+.Topsection_title {
+    display: flex;
+    gap: 2rem;
+}
+
+.Topsection_mail {
+    display: flex;
+    gap: 0.6rem;
+}
+
+/* .Topsection_Phone {
+
+} */
+ 

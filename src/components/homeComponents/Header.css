@@ -1,0 +1,384 @@
+.header {
+  width: 100%;
+  height: auto;
+}
+
+.header-top {
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
+.header-top > div {
+  max-width: 1200px;
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.before-navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 25px 35px;
+  position: relative;
+  top: -20px;
+  user-select: none;
+}
+
+.home-logo {
+  height: 55px;
+  -webkit-user-drag: none;
+}
+
+.before-navigation-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.before-navigation-item-ru {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.before-navigation-item > .icon {
+  width: 35px;
+  height: 35px;
+  color: var(--orange);
+}
+
+.before-navigation-item-ru > .icon {
+  width: 35px;
+  height: 35px;
+  color: var(--orange);
+}
+
+.before-navigation-item-ru > div > div > h4,
+.before-navigation-item-ru > div > h4 {
+  font-size: 14px;
+}
+
+.before-navigation-item-ru > div > div > p,
+.before-navigation-item-ru > div > p{
+  font-size: 14px;
+}
+
+.iso-stump {
+  display: flex;
+  gap: 10px;
+}
+
+.iso-stump-ru {
+  display: flex;
+  gap: 10px;
+}
+
+.iso-stump > div > h4 {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.iso-stump-ru > div > h4 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.iso-stump > div > p {
+  font-size: 13.5px;
+}
+
+.home-navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--grayish);
+  position: absolute;
+  z-index: 2;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+}
+
+.home-navigation > ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 0 20px;
+}
+
+.home-navigation > ul > li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.home-navigation > ul > li > a {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 20px 25px;
+  text-transform: uppercase;
+  cursor: unset;
+  color: white;
+  text-decoration: none;
+}
+
+.home-navigation > ul > li:nth-child(1):hover > .home-navigation-drop {
+  display: flex;
+}
+.home-navigation > ul > li:nth-child(2):hover > .home-navigation-drop {
+  display: flex;
+}
+.home-navigation > ul > li:nth-last-child(1):hover > .home-navigation-drop {
+  display: flex;
+}
+
+.home-navigation > ul > li:nth-last-child(1):hover > .home-navigation-drop > a {
+  padding: 15px 25px;
+}
+
+.lang-container{
+  padding: 20px 25px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+
+.lang-container > img{
+  width: 25px;
+  height: 25px;
+}
+
+.home-navigation-drop {
+  position: absolute;
+  top: 100%;
+  background-color: var(--grayish);
+  display: none;
+  flex-direction: column;
+  width: max-content;
+  /* overflow: hidden; */
+}
+
+.home-navigation-drop > a {
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  padding: 20px 25px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: unset;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.home-navigation-drop > a > img {
+  width: 25px;
+  height: 25px;
+}
+
+.home-navigation-drop > a:hover {
+  background-color: var(--orange);
+  color: black;
+  scale: 1.1;
+}
+
+.home-navigation > ul > li > a.active {
+  color: var(--orange);
+}
+
+.home-navigation > a {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  background-color: var(--orange);
+  color: black;
+  border-radius: 30px 0 0 30px;
+  padding: 20px 25px;
+  border-left: 5px solid white;
+  text-decoration: none;
+  cursor: unset;
+}
+
+.header-mid {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+
+.header-mid > video {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.header-mid::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.header-bottom {
+  max-width: 1600px;
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.solution-slider {
+  width: 100%;
+  margin: 50px 0;
+  position: absolute;
+  top: -50%;
+  overflow: hidden;
+}
+
+.solution-slider > div {
+  width: 75%;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slider-container {
+  height: 100%;
+  width: 100% !important;
+  top: 0 !important;
+  position: relative !important;
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.slick-track {
+  display: flex !important;
+  justify-content: space-between;
+  gap: 30px !important;
+}
+
+.action-container-sm {
+  display: none ;
+}
+
+.action-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  position: absolute;
+  top: 160px;
+}
+
+.action-container > svg {
+  width: 80px;
+  height: 80px;
+  cursor: unset;
+  position: absolute;
+  z-index: 2;
+}
+
+.action-container > svg:nth-child(1) {
+  left: -60px;
+}
+
+.action-container > svg:nth-child(2) {
+  right: -70px;
+  rotate: 180deg;
+}
+
+.card {
+  min-width: 25%;
+  user-select: none;
+}
+
+.card:active {
+  cursor: grab;
+}
+
+.card > div {
+  padding: 4px;
+  background-color: white;
+  position: relative;
+}
+
+.card > div > img {
+  width: 100%;
+  height: 230px;
+}
+
+.card > div > span {
+  position: absolute;
+  z-index: 2;
+  left: 7%;
+  bottom: 12%;
+  padding: 15px 20px;
+  background-color: black;
+}
+
+.card > div > span > svg {
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+
+.card > p {
+  padding: 25px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card > div > div {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--orange);
+  display: none;
+  flex-wrap: wrap;
+  animation: appear 0.5s ease;
+  text-wrap: wrap;
+}
+
+.card > div > div > p:nth-child(2) {
+  width: 100%;
+  align-self: flex-end;
+  text-align: end;
+  cursor: unset;
+}
+
+.card:hover > div > div {
+  display: flex;
+}
+
+.card:hover > p {
+  color: var(--orange);
+  transition: 0.5s;
+}
+
+.menu-container{
+  display: none;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
