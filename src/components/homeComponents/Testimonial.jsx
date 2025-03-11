@@ -36,7 +36,7 @@ export default function Testimonial() {
         </div>
 
         <div className="FAQ" data-aos="fade-left" data-aos-duration="2000">
-          <h2>FAQ's</h2>
+          <h2>{lang === "en" ? "FAQ's" : "Часто задаваемые вопросы"}</h2>
           <span></span>
           <div>
             <div className="offer" onClick={() => offerHandler(1)}>

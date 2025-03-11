@@ -24,6 +24,39 @@ export default function RootLayout() {
   const {pathname} = useLocation();
   const {lang} = useParams();
   const nextLang =  decodeURIComponent(pathname)?.replace(lang, langs.find((e)=>e.lang !== lang)?.lang);
+  const sect = [
+    {
+      route: "projects", 
+      ru: "проекты", 
+      en: "projects"
+    },
+    {
+      route: "solutions",
+      ru: "решения", 
+      en: "solutions"
+    },
+    {
+      route: "news", 
+      ru: "новости", 
+      en: "news"
+    },
+    {
+      route: "partners",
+      ru: "партнеры", 
+      en: "partners"
+    },
+    {
+      route: "about-us",
+      ru: "о нас", 
+      en: "about us"
+    },
+    {
+      route: "contact-us",
+      ru: "связаться с нами", 
+      en: "contact us"
+    },
+  ];
+
   let timeOut;
 
   useEffect(() => {
@@ -259,13 +292,13 @@ export default function RootLayout() {
           {menu && (
             <div className="menu-container">
               <div className="menu">
-                <NavLink
+                <Link
                   to={`/${lang}`}
-                  className="menu-item"
+                  className={`menu-item ${!link.pathname.includes(`/${lang}/`) && "active"}`} 
                   onClick={() => closeMenu()}
                 >
                   {lang === "en" ? "Home" : "Главный"}
-                </NavLink>
+                </Link>
                 <NavLink
                   to={`/${lang}/projects`}
                   className="menu-item"
@@ -313,6 +346,7 @@ export default function RootLayout() {
           )}
           {/* mobile menu end */}
         </div>
+
         <span className="header-background">
           {link.pathname.includes("/projects") ||
             link.pathname.includes("/solutions") ||
@@ -355,7 +389,11 @@ export default function RootLayout() {
           )}
           <div>
             <h1 style={{ textTransform: "capitalize" }}>
-              {link?.pathname?.split("/")?.[2]}
+              {
+                lang === "en" ?
+                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.en :
+                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.ru
+              } 
             </h1>
             <p
               style={{
@@ -371,7 +409,11 @@ export default function RootLayout() {
                 {lang === "en" ? "Home" : "Главный"}
               </NavLink>{" "}
               <span style={{ margin: "0 10px" }}>{">"}</span>{" "}
-              {link?.pathname?.split("/")?.[2]}
+              {
+                lang === "en" ?
+                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.en :
+                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.ru
+              } 
             </p>
           </div>
         </span>

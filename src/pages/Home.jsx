@@ -11,8 +11,10 @@ import HomeNews from "../components/homeComponents/HomeNews";
 import ProjectSlider from "../components/sliders/ProjectSlider";
 import ContactUs from "../components/ContactUsComp";
 import HomePartners from "../components/homeComponents/HomePartners";
+import { useParams } from "react-router";
 
 export default function Home() {
+  const {lang} = useParams();
   return (
     <>
       <Helmet>
@@ -36,7 +38,7 @@ export default function Home() {
           playsInline
         ></video>
         <div>
-          <h2>Our Projects</h2>
+          <h2>{lang === "en" ? "Our Projects" : "Наши Проекты"}</h2>
           <span></span>
               <ProjectSlider />
         </div>
