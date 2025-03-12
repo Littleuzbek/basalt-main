@@ -247,43 +247,54 @@ import solFabric9 from "./solutionFabric/solFabric9.jpg";
 import solFabric10 from "./solutionFabric/solFabric10.jpg";
 import solFabricVid from "./solutionFabric/fabric.mp4";
 import solFabricVid2 from "./solutionFabric/fabric2.mp4";
-import furnace1 from "./solutionUnderProduct/furnace/Furnace1.jpg"
-import furnace2 from "./solutionUnderProduct/furnace/Furnace2.jpg"
-import furnace3 from "./solutionUnderProduct/furnace/Furnace3.jpg"
-import furnace4 from "./solutionUnderProduct/furnace/Furnace4.jpg"
-import furnace5 from "./solutionUnderProduct/furnace/Furnace5.jpg"
-import furnace6 from "./solutionUnderProduct/furnace/Furnace6.jpg"
-import furnace7 from "./solutionUnderProduct/furnace/Furnace7.jpg"
-import furnace8 from "./solutionUnderProduct/furnace/Furnace8.jpg"
-import furnace9 from "./solutionUnderProduct/furnace/Furnace9.jpg"
-import furnace10 from "./solutionUnderProduct/furnace/Furnace10.jpg"
-import furnace11 from "./solutionUnderProduct/furnace/Furnace11.jpg"
-import furnace12 from "./solutionUnderProduct/furnace/Furnace12.jpg"
-import furnace13 from "./solutionUnderProduct/furnace/Furnace13.jpg"
-import furnace14 from "./solutionUnderProduct/furnace/Furnace14.jpg"
-import furnace15 from "./solutionUnderProduct/furnace/Furnace15.jpg"
-import platinum1 from "./solutionUnderProduct/platinum/Bushing1.jpg"
-import platinum2 from "./solutionUnderProduct/platinum/Bushing2.jpg"
-import platinum3 from "./solutionUnderProduct/platinum/Bushing3.jpg"
-import platinum4 from "./solutionUnderProduct/platinum/Bushing4.jpg"
-import platinum5 from "./solutionUnderProduct/platinum/Bushing5.jpg"
-import platinum6 from "./solutionUnderProduct/platinum/Bushing6.png"
-import platinum7 from "./solutionUnderProduct/platinum/Bushing7.jpg"
-import platinum8 from "./solutionUnderProduct/platinum/Bushing8.jpg"
-import burnerh from "./solutionUnderProduct/burner/burner-h.jpg"
-import burnerd from "./solutionUnderProduct/burner/burner-d.jpg"
-import winding1 from "./solutionUnderProduct/winding/winding1.webp"
-import winding2 from "./solutionUnderProduct/winding/winding2.webp"
-import winding3 from "./solutionUnderProduct/winding/winding3.webp"
-import winding4 from "./solutionUnderProduct/winding/winding4.webp"
-import winding5 from "./solutionUnderProduct/winding/winding5.webp"
-import winding6 from "./solutionUnderProduct/winding/winding6.webp"
-import winding7 from "./solutionUnderProduct/winding/winding7.webp"
-import winding8 from "./solutionUnderProduct/winding/winding8.webp"
-import winding9 from "./solutionUnderProduct/winding/winding9.webp"
-import winding10 from "./solutionUnderProduct/winding/winding10.webp"
-import winding11 from "./solutionUnderProduct/winding/winding11.webp"
-import winding12 from "./solutionUnderProduct/winding/winding12.webp"
+import furnace1 from "./solutionUnderProduct/furnace/Furnace1.jpg";
+import furnace2 from "./solutionUnderProduct/furnace/Furnace2.jpg";
+import furnace3 from "./solutionUnderProduct/furnace/Furnace3.jpg";
+import furnace4 from "./solutionUnderProduct/furnace/Furnace4.jpg";
+import furnace5 from "./solutionUnderProduct/furnace/Furnace5.jpg";
+import furnace6 from "./solutionUnderProduct/furnace/Furnace6.jpg";
+import furnace7 from "./solutionUnderProduct/furnace/Furnace7.jpg";
+import furnace8 from "./solutionUnderProduct/furnace/Furnace8.jpg";
+import furnace9 from "./solutionUnderProduct/furnace/Furnace9.jpg";
+import furnace10 from "./solutionUnderProduct/furnace/Furnace10.jpg";
+import furnace11 from "./solutionUnderProduct/furnace/Furnace11.jpg";
+import furnace12 from "./solutionUnderProduct/furnace/Furnace12.jpg";
+import furnace13 from "./solutionUnderProduct/furnace/Furnace13.jpg";
+import furnace14 from "./solutionUnderProduct/furnace/Furnace14.jpg";
+import furnace15 from "./solutionUnderProduct/furnace/Furnace15.jpg";
+import platinum1 from "./solutionUnderProduct/platinum/Bushing1.jpg";
+import platinum2 from "./solutionUnderProduct/platinum/Bushing2.jpg";
+import platinum3 from "./solutionUnderProduct/platinum/Bushing3.jpg";
+import platinum4 from "./solutionUnderProduct/platinum/Bushing4.jpg";
+import platinum5 from "./solutionUnderProduct/platinum/Bushing5.jpg";
+import platinum6 from "./solutionUnderProduct/platinum/Bushing6.png";
+import platinum7 from "./solutionUnderProduct/platinum/Bushing7.jpg";
+import platinum8 from "./solutionUnderProduct/platinum/Bushing8.jpg";
+import burnerh from "./solutionUnderProduct/burner/burner-h.jpg";
+import burnerd from "./solutionUnderProduct/burner/burner-d.jpg";
+import winding1 from "./solutionUnderProduct/winding/winding1.webp";
+import winding2 from "./solutionUnderProduct/winding/winding2.webp";
+import winding3 from "./solutionUnderProduct/winding/winding3.webp";
+import winding4 from "./solutionUnderProduct/winding/winding4.webp";
+import winding5 from "./solutionUnderProduct/winding/winding5.webp";
+import winding6 from "./solutionUnderProduct/winding/winding6.webp";
+import winding7 from "./solutionUnderProduct/winding/winding7.webp";
+import winding8 from "./solutionUnderProduct/winding/winding8.webp";
+import winding9 from "./solutionUnderProduct/winding/winding9.webp";
+import winding10 from "./solutionUnderProduct/winding/winding10.webp";
+import winding11 from "./solutionUnderProduct/winding/winding11.webp";
+import winding12 from "./solutionUnderProduct/winding/winding12.webp";
+import control1 from "./solutionUnderProduct/control/control1.jpg";
+import control2 from "./solutionUnderProduct/control/control2.jpg";
+import pms1 from "./solutionUnderProduct/pms/PMS1.jpg";
+import pms2 from "./solutionUnderProduct/pms/PMS2.jpg";
+import pms3 from "./solutionUnderProduct/pms/PMS3.jpg";
+import pms4 from "./solutionUnderProduct/pms/PMS4.jpg";
+import scada1 from "./solutionUnderProduct/scada/SCADA1.jpg"
+import scada2 from "./solutionUnderProduct/scada/SCADA2.jpg"
+import scada3 from "./solutionUnderProduct/scada/SCADA3.jpg"
+import scada4 from "./solutionUnderProduct/scada/SCADA4.png"
+import scada5 from "./solutionUnderProduct/scada/SCADA5.png"
 
 import en from "./eng.png";
 import ru from "./rus.png";
@@ -1227,7 +1238,7 @@ export const solFiber = {
         // "solutions/bushing",
         // "solutions/burner",
         // "solutions/winding",
-      ]
+      ],
     },
   },
 };
@@ -1385,17 +1396,16 @@ export const solBars = {
   general: {
     title: {
       en: "Production of Basalt reinforcement bars",
-      ru: "Производство базальтовой арматуры"
+      ru: "Производство базальтовой арматуры",
     },
     p: null,
   },
   adv: {
     list: {
-      title:
-        {
-          en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT REINFORCEMENT BARS",
-          ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОЙ АРМАТУРЫ"
-        },
+      title: {
+        en: "TECHNOLOGICAL COMPLEX FOR THE PRODUCTION OF BASALT REINFORCEMENT BARS",
+        ru: "ТЕХНОЛОГИЧЕСКИЙ КОМПЛЕКС ПО ПРОИЗВОДСТВУ БАЗАЛЬТОВОЙ АРМАТУРЫ",
+      },
       ulListTitle: null,
       p: {
         en: "For such projects, we provide key solutions such us:",
@@ -1403,30 +1413,30 @@ export const solBars = {
       },
       ulListItem: {
         en: [
-        "OEM, ODM & OBM services",
-        "Supporting materials;",
-        "Samples;",
-        "Feasibility study;",
-        "Pre-sales support of finished products to form the client’s market;",
-        "Identification of end product’s designation;",
-        "Contracting support with verified suppliers;",
-        "Post commissioning services;",
-        "Product quality optimization;",
-        "Other services (TBA).",
-      ],
-      ru: [
-        "Услуги OEM, ODM и OBM",
-        "Вспомогательные материалы;",
-        "Образцы;",
-        "Технико-экономическое обоснование;",
-        "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
-        "Определение назначения конечного продукта;",
-        "Поддержка заключения контрактов с проверенными поставщиками;",
-        "Услуги после ввода в эксплуатацию;",
-        "Оптимизация качества продукции;",
-        "Другие услуги (TBA).",
+          "OEM, ODM & OBM services",
+          "Supporting materials;",
+          "Samples;",
+          "Feasibility study;",
+          "Pre-sales support of finished products to form the client’s market;",
+          "Identification of end product’s designation;",
+          "Contracting support with verified suppliers;",
+          "Post commissioning services;",
+          "Product quality optimization;",
+          "Other services (TBA).",
         ],
-    },
+        ru: [
+          "Услуги OEM, ODM и OBM",
+          "Вспомогательные материалы;",
+          "Образцы;",
+          "Технико-экономическое обоснование;",
+          "Предпродажная поддержка готовой продукции для формирования рынка клиента;",
+          "Определение назначения конечного продукта;",
+          "Поддержка заключения контрактов с проверенными поставщиками;",
+          "Услуги после ввода в эксплуатацию;",
+          "Оптимизация качества продукции;",
+          "Другие услуги (TBA).",
+        ],
+      },
     },
   },
 };
@@ -1569,7 +1579,6 @@ export const solFabric = {
   },
 };
 
-
 export const furnace = {
   images: [
     furnace1,
@@ -1592,22 +1601,26 @@ export const furnace = {
   general: {
     title: {
       en: "furnace",
-      ru: "печь"
+      ru: "печь",
     },
     p: {
-      en: ["Due to its high flexibility and its low energy consumption the regenerative end fired furnace is the working horse of the industry. Most mass produced basalt fibre can be produced with a minimum of fossil fuel firing and thus carbon dioxide emission. Limitations in furnace size result from flame length and crown span width, especially of the burner ports."],
-      ru: ["Благодаря своей высокой гибкости и низкому энергопотреблению регенеративная печь с торцевым пламенем является рабочей лошадкой отрасли. Большинство массовых базальтовых волокон можно производить с минимальным сжиганием ископаемого топлива и, следовательно, выбросами углекислого газа. Ограничения по размеру печи обусловлены длиной пламени и шириной короны, особенно отверстий горелки."]
-    }
+      en: [
+        "Due to its high flexibility and its low energy consumption the regenerative end fired furnace is the working horse of the industry. Most mass produced basalt fibre can be produced with a minimum of fossil fuel firing and thus carbon dioxide emission. Limitations in furnace size result from flame length and crown span width, especially of the burner ports.",
+      ],
+      ru: [
+        "Благодаря своей высокой гибкости и низкому энергопотреблению регенеративная печь с торцевым пламенем является рабочей лошадкой отрасли. Большинство массовых базальтовых волокон можно производить с минимальным сжиганием ископаемого топлива и, следовательно, выбросами углекислого газа. Ограничения по размеру печи обусловлены длиной пламени и шириной короны, особенно отверстий горелки.",
+      ],
+    },
   },
   adv: {
     list: {
       title: {
         en: "Technological furnace equipment",
-        ru: "Технологическое печное оборудование"
+        ru: "Технологическое печное оборудование",
       },
       ulListTitle: {
         en: ["FEATURES"],
-        ru: ["ФУНКЦИИ"]
+        ru: ["ФУНКЦИИ"],
       },
       ulListItem: {
         en: [
@@ -1616,8 +1629,8 @@ export const furnace = {
             "Low emission values;",
             "High flexibility in case of load change;",
             "High specific melting output;",
-            "Long life."
-          ]
+            "Long life.",
+          ],
         ],
         ru: [
           [
@@ -1625,12 +1638,12 @@ export const furnace = {
             "Низкие показатели выбросов;",
             "Высокая гибкость при изменении нагрузки;",
             "Высокая удельная производительность плавки;",
-            "Долгая жизнь."
-          ]
-        ]
-      }
-    }
-  }
+            "Долгая жизнь.",
+          ],
+        ],
+      },
+    },
+  },
 };
 
 export const platinum = {
@@ -1648,11 +1661,11 @@ export const platinum = {
   general: {
     title: {
       en: "Platinum-rhodium feeders’ system",
-      ru: "Система платино-родиевых питателей"
+      ru: "Система платино-родиевых питателей",
     },
     p: null,
-    adv: null
-  }
+    adv: null,
+  },
 };
 
 export const burnerTyped = {
@@ -1663,9 +1676,9 @@ export const burnerTyped = {
       en: "Burners D-type",
       ru: "Горелки D-типа",
     },
-    p: null
+    p: null,
   },
-  adv: null
+  adv: null,
 };
 
 export const burnerTypeh = {
@@ -1676,9 +1689,9 @@ export const burnerTypeh = {
       en: "Burners H-type",
       ru: "Горелки H-типа",
     },
-    p: null
+    p: null,
   },
-  adv: null
+  adv: null,
 };
 
 export const winding = {
@@ -1700,11 +1713,212 @@ export const winding = {
   general: {
     title: {
       en: "Winding system",
-      ru: "Система намотки"
+      ru: "Система намотки",
     },
     p: null,
   },
-  adv: null
+  adv: null,
+};
+
+export const control = {
+  images: [control1, control2],
+  videos: null,
+  general: {
+    title: {
+      en: "Measurement and control equipments.",
+      ru: "Измерительное и контрольное оборудование.",
+    },
+    p: null,
+  },
+  adv: {
+    list: {
+      title: {
+        en: "Measurement and control equipments.",
+        ru: "Измерительное и контрольное оборудование.",
+      },
+      ulListTitle: null,
+      ulListItem: {
+        en: [
+          "Temperature measurement and control;",
+          "Chimney draft measurement and control;",
+          "Furnace pressure measurement and control;",
+          "Lava level measurement and control;",
+          "Quantity measurement and control;",
+          "Process PLC control unit;",
+          "Independent safety PLC to meet highest safety standards;",
+          "MCC (Motor Control Cabinet) and power cabinets (e.g. oil preheater, boosting system);",
+          "SCADA - Computer supervisory system;",
+          "UPS – Power unit;",
+          "Furnace TV Camera;",
+          "Process supervision and visualisation;",
+          "PLC - levels with independent operating units;",
+          "Back-up hardware levels;",
+          "Manual/field operation level;",
+        ],
+        ru: [
+          "Измерение и контроль температуры;",
+          "Измерение и контроль тяги дымохода;",
+          "Измерение и контроль давления печи;",
+          "Измерение и контроль уровня лавы;",
+          "Измерение и контроль количества;",
+          "Блок управления ПЛК процесса;",
+          "Независимый ПЛК безопасности для соответствия самым высоким стандартам безопасности;",
+          "MCC (шкаф управления двигателем) и силовые шкафы (например, подогреватель масла, система повышения давления);",
+          "SCADA - компьютерная система контроля;",
+          "ИБП - блок питания;",
+          "Телекамера печи;",
+          "Контроль и визуализация процесса;",
+          "ПЛК - уровни с независимыми рабочими блоками;",
+          "Уровни резервного оборудования;",
+          "Уровень ручного/полевого управления;",
+        ],
+      },
+      ulListTitle2: {
+        en: ["FEATURES"],
+        ru: ["ФУНКЦИИ"],
+      },
+      ulListItem2: {
+        en: [
+          "Individually designed control cabinets",
+          "Equipment adapted to local network conditions",
+          "Control components from well known brands",
+          "FAT (Factory Acceptance Test) in our company",
+        ],
+        ru: [
+          "Индивидуально спроектированные шкафы управления",
+          "Оборудование, адаптированное к условиям локальной сети",
+          "Компоненты управления известных брендов",
+          "FAT (заводские приемочные испытания) в нашей компании",
+        ],
+      },
+    },
+  },
+};
+
+export const pms = {
+  images: [pms1, pms2, pms3, pms4],
+  videos: null,
+  general: {
+    title: {
+      en: "plant automation system",
+      ru: "система автоматизации завода",
+    },
+    p: null,
+  },
+  adv: {
+    title: {
+      en: "THE PLANT MANAGEMENT SYSTEM COMPLEX FOR THE PRODUCTION OF CONTINUOUS BASALT FIBER",
+      ru: "КОМПЛЕКС СИСТЕМЫ УПРАВЛЕНИЯ ЗАВОДОМ ПО ПРОИЗВОДСТВУ НЕПРЕРЫВНОГО БАЗАЛЬТОВОГО ВОЛОКНА",
+    },
+    p: {
+      en: "The complex consists of various control systems, each of which is equipped with its own controller responsible for its own technological process. The controllers are tied into a single network, within which they exchange the data necessary for operation.",
+      ru: "Комплекс состоит из различных систем управления, каждая из которых оснащена собственным контроллером, отвечающим за свой технологический процесс. Контроллеры связаны в единую сеть, внутри которой они обмениваются данными, необходимыми для работы.",
+    },
+    olListTitle: {
+      en: [
+        "Furnace and feeder control system:",
+        "Control system of the furnace loader:",
+        "Rail Loader Control System:",
+        "Control system for the preparation of basalt chips (crumbs):",
+        "Control system for recycling water supply:",
+        "Lubricant preparation, supply and return system:",
+        "Heat exchanger control system at absorption chiller:",
+        "Absorption Chiller:",
+      ],
+      ru: [
+        "Система управления печью и питателем:",
+        "Система управления загрузчиком печи:",
+        "Система управления рельсовым загрузчиком:",
+        "Система управления приготовлением базальтовой крошки (крошки):",
+        "Система управления оборотным водоснабжением:",
+        "Система подготовки, подачи и возврата смазочных материалов:",
+        "Система управления теплообменником абсорбционной холодильной машины:",
+        "Абсорбционная холодильная машина:",
+      ],
+      olListItem: {
+        en: [
+          [
+            "temperature conditions inside the furnace;",
+            "feeders;",
+            "rarefaction (exhaustion) in the furnace;",
+            "temperature of air heating for combustion;",
+            "temperature before and after the heat exchanger;",
+            "air pressure on the burners.",
+          ],
+          [
+            "This system automatically controls the screw feeder of the furnace;",
+            "The initial data for operation is a signal from a level gauge or a task for the loading speed from the furnace control system;",
+            "The system provides information on the remaining basalt in the bunker to the rail loader control system.",
+          ],
+          [
+            "This system manages the simultaneous operation of two rail loaders;",
+            "The system sets the minimum and maximum weight of basalt in each bunker of the furnace;",
+            "Based on the data on the rest of the basalt in the bunkers received from the loaders of the furnace, the system automatically replenishes (refills) them.",
+          ],
+          [
+            "This system is a combination of semi-automatic and automatic system:",
+            "The part of the control system responsible for the loading of rail loaders is automatic and starts on a signal that the loader is ready for filling;",
+            "The system responsible for washing, drying, sorting, etc. is semi-automatic as it requires manual labor and human presence.",
+          ],
+          [
+            "This system controls the operation of the pumps, dry cooler and cooling tower depending on the water temperature data received from the furnace control systems."
+          ],
+          [
+           "This system provides supply and return of the lubricant. Calculates the required amount of lubricant in the system, based on the estimated consumption of lubricant per hour for each of the operating furnaces. Executes automatic preparation of the lubricant, taking into account all the residues and the time required for its preparation. Based on the recipe, it estimates the amount of residues of the components necessary for the preparation of the lubricant and signals the need to replenish them."
+          ],
+          [
+            "This system controls the heat removal from flue gases. В зависимости от наружной температуры нагретая вода может подаваться, как на АБХМ в летнее время, так и на отопление в зимнее время. The system receives information about the calculated amount of heat leaving with flue gases and corrects its work according to temperature sensors."
+          ],
+          [
+            "This system controls the work of Absorption Chiller. It receives data on the heat carrier from the heat exchanger control system. Cold coolant is accumulated in tanks and disassembled upon request from external systems such as ventilation and air conditioning, as well as circulating water supply."
+          ]
+        ],
+      },
+    },
+  },
+};
+
+export const scada = {
+  images: [
+    scada1,
+    scada2,
+    scada3,
+    scada4,
+    scada5,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "scada",
+      ru: "scada"
+    },
+    p: null
+  },
+  adv: {
+    list: {
+      title: {
+        en: "Scada automation system",
+        ru: "Система автоматизации Scada"
+      },
+      p: {
+        en: "In addition to exchanging data with each other, all control cabinets are connected to a single SCADA system. The SCADA system is a computer on the monitor of which information from all connected cabinets is displayed. Access to information is limited by access rights, for example:",
+        ru: "Помимо обмена данными между собой, все шкафы управления подключены к единой системе SCADA. Система SCADA представляет собой компьютер, на мониторе которого отображается информация со всех подключенных шкафов. Доступ к информации ограничен правами доступа, например:"
+      },
+      ulListTitle: null,
+      ulListItem: {
+        en: [
+          "The manager can connect to the SCADA system from his computer or mobile phone and view all the data on the operation of the plant: the number of operating furnaces, productivity, gas consumption, electricity consumption, air consumption for furnaces, temperatures, accident log, etc.",
+          "The duty shift supervisor of the sizing lubricant's section can receive information about the work of his section and the need to replenish stocks of components.",
+          "Messages about emergencies can come to all users who are at the workplace at the time of their occurrence."
+        ],
+        ru: [
+          "Руководитель может подключиться к системе SCADA со своего компьютера или мобильного телефона и просмотреть все данные о работе завода: количество работающих печей, производительность, расход газа, расход электроэнергии, расход воздуха для печей, температуры, журнал аварий и т. д.",
+          "Начальник дежурной смены участка смазочно-охлаждающей жидкости может получать информацию о работе своего участка и необходимости пополнения запасов комплектующих.",
+          "Сообщения об аварийных ситуациях могут поступать всем пользователям, находящимся на рабочем месте в момент их возникновения."
+        ]
+      }
+    }
+  }
 }
 
 export const langs = [
