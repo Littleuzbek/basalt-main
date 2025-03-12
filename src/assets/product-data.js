@@ -247,6 +247,30 @@ import solFabric9 from "./solutionFabric/solFabric9.jpg";
 import solFabric10 from "./solutionFabric/solFabric10.jpg";
 import solFabricVid from "./solutionFabric/fabric.mp4";
 import solFabricVid2 from "./solutionFabric/fabric2.mp4";
+import furnace1 from "./solutionUnderProduct/furnace/Furnace1.jpg"
+import furnace2 from "./solutionUnderProduct/furnace/Furnace2.jpg"
+import furnace3 from "./solutionUnderProduct/furnace/Furnace3.jpg"
+import furnace4 from "./solutionUnderProduct/furnace/Furnace4.jpg"
+import furnace5 from "./solutionUnderProduct/furnace/Furnace5.jpg"
+import furnace6 from "./solutionUnderProduct/furnace/Furnace6.jpg"
+import furnace7 from "./solutionUnderProduct/furnace/Furnace7.jpg"
+import furnace8 from "./solutionUnderProduct/furnace/Furnace8.jpg"
+import furnace9 from "./solutionUnderProduct/furnace/Furnace9.jpg"
+import furnace10 from "./solutionUnderProduct/furnace/Furnace10.jpg"
+import furnace11 from "./solutionUnderProduct/furnace/Furnace11.jpg"
+import furnace12 from "./solutionUnderProduct/furnace/Furnace12.jpg"
+import furnace13 from "./solutionUnderProduct/furnace/Furnace13.jpg"
+import furnace14 from "./solutionUnderProduct/furnace/Furnace14.jpg"
+import furnace15 from "./solutionUnderProduct/furnace/Furnace15.jpg"
+import platinum1 from "./solutionUnderProduct/platinum/Bushing1.jpg"
+import platinum2 from "./solutionUnderProduct/platinum/Bushing2.jpg"
+import platinum3 from "./solutionUnderProduct/platinum/Bushing3.jpg"
+import platinum4 from "./solutionUnderProduct/platinum/Bushing4.jpg"
+import platinum5 from "./solutionUnderProduct/platinum/Bushing5.jpg"
+import platinum6 from "./solutionUnderProduct/platinum/Bushing6.jpg"
+import platinum7 from "./solutionUnderProduct/platinum/Bushing7.jpg"
+import platinum8 from "./solutionUnderProduct/platinum/Bushing8.jpg"
+
 import en from "./eng.png";
 import ru from "./rus.png";
 
@@ -1524,6 +1548,88 @@ export const solFabric = {
     },
   },
 };
+
+
+export const furnace = {
+  images: [
+    furnace1,
+    furnace2,
+    furnace3,
+    furnace4,
+    furnace5,
+    furnace6,
+    furnace7,
+    furnace8,
+    furnace9,
+    furnace10,
+    furnace11,
+    furnace12,
+    furnace13,
+    furnace14,
+    furnace15,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Technological furnace",
+      ru: "Технологическая печь"
+    },
+    p: {
+      en: "Due to its high flexibility and its low energy consumption the regenerative end fired furnace is the working horse of the industry. Most mass produced basalt fibre can be produced with a minimum of fossil fuel firing and thus carbon dioxide emission. Limitations in furnace size result from flame length and crown span width, especially of the burner ports.",
+      ru: "Благодаря своей высокой гибкости и низкому энергопотреблению регенеративная печь с торцевым пламенем является рабочей лошадкой отрасли. Большинство массовых базальтовых волокон можно производить с минимальным сжиганием ископаемого топлива и, следовательно, выбросами углекислого газа. Ограничения по размеру печи обусловлены длиной пламени и шириной короны, особенно отверстий горелки."
+    }
+  },
+  adv: {
+    list: {
+      title: {
+        en: "Technological furnace equipment",
+        ru: "Технологическое печное оборудование"
+      },
+      ulListTitle: {
+        en: ["FEATURES"],
+        ru: ["ФУНКЦИИ"]
+      },
+      ulListItem: {
+        en: [
+          "Low energy consumption;",
+          "Low emission values;",
+          "High flexibility in case of load change;",
+          "High specific melting output;",
+          "Long life."
+        ],
+        ru: [
+          "Низкое потребление энергии;",
+          "Низкие показатели выбросов;",
+          "Высокая гибкость при изменении нагрузки;",
+          "Высокая удельная производительность плавки;",
+          "Долгая жизнь."
+        ]
+      }
+    }
+  }
+};
+
+export const platinum = {
+  images: [
+    platinum1,
+    platinum2,
+    platinum3,
+    platinum4,
+    platinum5,
+    platinum6,
+    platinum7,
+    platinum8,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Platinum-rhodium feeders’ system",
+      ru: "Система платино-родиевых питателей"
+    },
+    p: null,
+    adv: null
+  }
+}
 
 export const langs = [
   { lang: "en", img: en },
