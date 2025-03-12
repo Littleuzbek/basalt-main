@@ -1,6 +1,6 @@
 import "../components/AboutProduct.css";
 import Presentation from "../components/Presentation";
-import { Link, data, useLoaderData, useParams } from "react-router";
+import { Link, data, useLoaderData, useNavigate, useParams } from "react-router";
 import { Fragment, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 
@@ -8,6 +8,7 @@ export default function AboutProduct() {
   const [type, setType] = useState(1);
   const product = useLoaderData();
   const { lang } = useParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
     setType(1);
@@ -115,7 +116,10 @@ export default function AboutProduct() {
               )}
 
               {product?.adv?.list?.title2?.en && (
-                <div className="list" key={product?.adv?.list?.title2?.en + "2"}>
+                <div
+                  className="list"
+                  key={product?.adv?.list?.title2?.en + "2"}
+                >
                   {(lang === "en"
                     ? product?.adv?.list?.ulListTitle2?.en
                     : product?.adv?.list?.ulListTitle2?.ru
@@ -158,7 +162,10 @@ export default function AboutProduct() {
                         ? product?.adv?.list?.olListTitle?.en
                         : product?.adv?.list?.olListTitle?.ru
                       )?.map((title, index) => (
-                        <li style={index >= 9 ? {margin: "0 0 0 9px"} : {}} key={title + index}>
+                        <li
+                          style={index >= 9 ? { margin: "0 0 0 9px" } : {}}
+                          key={title + index}
+                        >
                           <h3>{title}</h3>
                           <ul>
                             {(lang === "en"
@@ -169,6 +176,12 @@ export default function AboutProduct() {
                               <li key={item}>{item}</li>
                             ))}
                           </ul>
+
+                          {product?.adv?.list?.checkoutBtn?.at(index) && (
+                            <button className="underCheck" onClick={() => navigate(`/${lang}/${product?.adv?.list?.checkoutBtn?.at(index)}`)}>
+                                {lang === "en" ? "Checkout" : "Проверить"}
+                            </button>
+                          )}
                         </li>
                       ))}
                     </ol>
@@ -227,6 +240,14 @@ export const productLoader = async ({ params }) => {
       import("../assets/product-data").then((m) => m.solGeogrid),
     "production-of-basalt-continuous-fabric": () =>
       import("../assets/product-data").then((m) => m.solFabric),
+    furnace: () => import("../assets/product-data").then((m) => m.furnace),
+    "platinum-rhodium-feeders-system": () =>
+      import("../assets/product-data").then((m) => m.platinum),
+    "burner-type-d": () =>
+      import("../assets/product-data").then((m) => m.burnerTyped),
+    "burner-type-h": () =>
+      import("../assets/product-data").then((m) => m.burnerTypeh),
+    winders: () => import("../assets/product-data").then((m) => m.winding),
   };
 
   if (routes[id]) {

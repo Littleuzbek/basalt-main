@@ -67,6 +67,7 @@ export default function Presentation({ images }) {
           onMouseLeave={handleMouseUp}
           onMouseUp={handleMouseUp}
           ref={slidesRef}
+          style={images?.length > 1 ? {} : {display: "none"}}
         >
           {images?.map((image, key) => (
             <div key={image} style={images?.length === 3 ? {width: "217px"} : {}}>
@@ -78,7 +79,7 @@ export default function Presentation({ images }) {
             </div>
           ))}
         </div>
-        <div className="slider-action" style={images?.length === 3 ? {display: "none"} : {}}>
+        <div className="slider-action" style={images?.length < 4 ? {display: "none"} : {}}>
           <GrFormPrevious
             onClick={() => {
               return slidesRef.current.scrollLeft === 0 ?

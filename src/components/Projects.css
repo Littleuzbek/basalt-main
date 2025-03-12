@@ -102,25 +102,24 @@
 }
 
 .solution-card:hover > div, 
-/* .solution-card:nth-child(2):hover > div, 
-.solution-card:nth-child(3):hover > div, 
-.solution-card:nth-child(5):hover > div,
-.solution-card:nth-child(7):hover > div, */
-/* .solution-slider-card:nth-child(1):hover > div, 
-.solution-slider-card:nth-child(2):hover > div, 
-.solution-slider-card:nth-child(3):hover > div, 
-.solution-slider-card:nth-child(5):hover > div, */
 .solution-slider-card:hover > div{
   transform: translateY(-38%);
 } 
 
-/* #solution-slider-card:hover > div{
-  animation: none;
-  transform: translateY(-38%);
-} */
-
 #solution-slider-card > img{
   min-height: 260px;
+}
+
+.furnace-equipment > div > h4 {
+  padding: 25px;
+}
+
+.furnace-equipment:nth-child(2) > div > h4 {
+  padding: 15px;
+}
+
+.furnace-equipment:hover > div{
+  transform: translateY(-38%);
 }
 
 .moreBtn {
@@ -165,6 +164,23 @@
 .moreBtn > button:hover::before {
   border-radius: 0;
   transform: translateX(0);
+}
+
+.underCheck{
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: unset;
+  transition: .5s;
+}
+
+.underCheck:hover{
+  background-color: var(--orange);
+  color: white;
+  border: 2px solid var(--orange);
 }
 
 #slider-sm{

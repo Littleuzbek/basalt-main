@@ -267,9 +267,23 @@ import platinum2 from "./solutionUnderProduct/platinum/Bushing2.jpg"
 import platinum3 from "./solutionUnderProduct/platinum/Bushing3.jpg"
 import platinum4 from "./solutionUnderProduct/platinum/Bushing4.jpg"
 import platinum5 from "./solutionUnderProduct/platinum/Bushing5.jpg"
-import platinum6 from "./solutionUnderProduct/platinum/Bushing6.jpg"
+import platinum6 from "./solutionUnderProduct/platinum/Bushing6.png"
 import platinum7 from "./solutionUnderProduct/platinum/Bushing7.jpg"
 import platinum8 from "./solutionUnderProduct/platinum/Bushing8.jpg"
+import burnerh from "./solutionUnderProduct/burner/burner-h.jpg"
+import burnerd from "./solutionUnderProduct/burner/burner-d.jpg"
+import winding1 from "./solutionUnderProduct/winding/winding1.webp"
+import winding2 from "./solutionUnderProduct/winding/winding2.webp"
+import winding3 from "./solutionUnderProduct/winding/winding3.webp"
+import winding4 from "./solutionUnderProduct/winding/winding4.webp"
+import winding5 from "./solutionUnderProduct/winding/winding5.webp"
+import winding6 from "./solutionUnderProduct/winding/winding6.webp"
+import winding7 from "./solutionUnderProduct/winding/winding7.webp"
+import winding8 from "./solutionUnderProduct/winding/winding8.webp"
+import winding9 from "./solutionUnderProduct/winding/winding9.webp"
+import winding10 from "./solutionUnderProduct/winding/winding10.webp"
+import winding11 from "./solutionUnderProduct/winding/winding11.webp"
+import winding12 from "./solutionUnderProduct/winding/winding12.webp"
 
 import en from "./eng.png";
 import ru from "./rus.png";
@@ -1208,6 +1222,12 @@ export const solFiber = {
           ],
         ],
       },
+      checkoutBtn: [
+        "technological-furnace-equipment",
+        // "solutions/bushing",
+        // "solutions/burner",
+        // "solutions/winding",
+      ]
     },
   },
 };
@@ -1571,12 +1591,12 @@ export const furnace = {
   videos: null,
   general: {
     title: {
-      en: "Technological furnace",
-      ru: "Технологическая печь"
+      en: "furnace",
+      ru: "печь"
     },
     p: {
-      en: "Due to its high flexibility and its low energy consumption the regenerative end fired furnace is the working horse of the industry. Most mass produced basalt fibre can be produced with a minimum of fossil fuel firing and thus carbon dioxide emission. Limitations in furnace size result from flame length and crown span width, especially of the burner ports.",
-      ru: "Благодаря своей высокой гибкости и низкому энергопотреблению регенеративная печь с торцевым пламенем является рабочей лошадкой отрасли. Большинство массовых базальтовых волокон можно производить с минимальным сжиганием ископаемого топлива и, следовательно, выбросами углекислого газа. Ограничения по размеру печи обусловлены длиной пламени и шириной короны, особенно отверстий горелки."
+      en: ["Due to its high flexibility and its low energy consumption the regenerative end fired furnace is the working horse of the industry. Most mass produced basalt fibre can be produced with a minimum of fossil fuel firing and thus carbon dioxide emission. Limitations in furnace size result from flame length and crown span width, especially of the burner ports."],
+      ru: ["Благодаря своей высокой гибкости и низкому энергопотреблению регенеративная печь с торцевым пламенем является рабочей лошадкой отрасли. Большинство массовых базальтовых волокон можно производить с минимальным сжиганием ископаемого топлива и, следовательно, выбросами углекислого газа. Ограничения по размеру печи обусловлены длиной пламени и шириной короны, особенно отверстий горелки."]
     }
   },
   adv: {
@@ -1591,18 +1611,22 @@ export const furnace = {
       },
       ulListItem: {
         en: [
-          "Low energy consumption;",
-          "Low emission values;",
-          "High flexibility in case of load change;",
-          "High specific melting output;",
-          "Long life."
+          [
+            "Low energy consumption;",
+            "Low emission values;",
+            "High flexibility in case of load change;",
+            "High specific melting output;",
+            "Long life."
+          ]
         ],
         ru: [
-          "Низкое потребление энергии;",
-          "Низкие показатели выбросов;",
-          "Высокая гибкость при изменении нагрузки;",
-          "Высокая удельная производительность плавки;",
-          "Долгая жизнь."
+          [
+            "Низкое потребление энергии;",
+            "Низкие показатели выбросов;",
+            "Высокая гибкость при изменении нагрузки;",
+            "Высокая удельная производительность плавки;",
+            "Долгая жизнь."
+          ]
         ]
       }
     }
@@ -1629,6 +1653,58 @@ export const platinum = {
     p: null,
     adv: null
   }
+};
+
+export const burnerTyped = {
+  images: [burnerd],
+  videos: null,
+  general: {
+    title: {
+      en: "Burners D-type",
+      ru: "Горелки D-типа",
+    },
+    p: null
+  },
+  adv: null
+};
+
+export const burnerTypeh = {
+  images: [burnerh],
+  videos: null,
+  general: {
+    title: {
+      en: "Burners H-type",
+      ru: "Горелки H-типа",
+    },
+    p: null
+  },
+  adv: null
+};
+
+export const winding = {
+  images: [
+    winding1,
+    winding2,
+    winding3,
+    winding4,
+    winding5,
+    winding6,
+    winding7,
+    winding8,
+    winding9,
+    winding10,
+    winding11,
+    winding12,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Winding system",
+      ru: "Система намотки"
+    },
+    p: null,
+  },
+  adv: null
 }
 
 export const langs = [
