@@ -139,6 +139,17 @@
     height: 30px;
   }
 
+
+  .nav-products-sm:nth-last-child(1) > a,
+  .nav-products-sm > p{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: black !important;
+      text-decoration: none;
+      text-transform: uppercase;
+  }
+
   .sub-menu {
     width: 100%;
     margin: 15px 0 0 0;

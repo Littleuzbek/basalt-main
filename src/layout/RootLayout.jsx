@@ -57,13 +57,11 @@ export default function RootLayout() {
     },
   ];
 
-  let timeOut;
-
   useEffect(() => {
     const header = document.getElementById("header");
-
+    
     window.addEventListener("scroll", () => {
-
+      
       if (window.scrollY > 140) {
         header?.classList.add("scrolled");
       } else {
@@ -71,15 +69,17 @@ export default function RootLayout() {
       }
     });
   }, [window.scrollY]);
-
+  
   useEffect(() => {
     window.scrollTo(0, 0);
-
+    
     if(lang && lang !== "en" && lang !== "ru"){
       throw data("Page not Found", {status: 404})
     }
-
+    
   }, [link]);
+  
+  let timeOut;
   
   const navigationHandler = () => {
     const dropDown = document.querySelector(".navigation-drop");
@@ -294,7 +294,9 @@ export default function RootLayout() {
               <div className="menu">
                 <Link
                   to={`/${lang}`}
-                  className={`menu-item ${!link.pathname.includes(`/${lang}/`) && "active"}`} 
+                  className={`menu-item ${
+                    !link.pathname.includes(`/${lang}/`) && "active"
+                  }`}
                   onClick={() => closeMenu()}
                 >
                   {lang === "en" ? "Home" : "Главный"}
@@ -341,6 +343,24 @@ export default function RootLayout() {
                 >
                   {lang === "en" ? "Contact Us" : "Связаться"}
                 </NavLink>
+                <div className="menu-item nav-products-sm">
+                  <Link
+                    to={lang === "en" ? "" : nextLang}
+                    onClick={() => {
+                      langHandler("en");
+                    }}
+                  >
+                    <img src={langs[0].img} alt="" /> en{" "}
+                  </Link>
+                  <Link
+                    to={lang === "ru" ? "" : nextLang}
+                    onClick={() => {
+                      langHandler("ru");
+                    }}
+                  >
+                    <img src={langs[1].img} alt="" /> ru
+                  </Link>
+                </div>
               </div>
             </div>
           )}
@@ -389,11 +409,13 @@ export default function RootLayout() {
           )}
           <div>
             <h1 style={{ textTransform: "capitalize" }}>
-              {
-                lang === "en" ?
-                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.en :
-                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.ru
-              } 
+              {lang === "en"
+                ? sect.find(
+                    (route) => link?.pathname?.split("/")?.[2] === route.route
+                  )?.en
+                : sect.find(
+                    (route) => link?.pathname?.split("/")?.[2] === route.route
+                  )?.ru}
             </h1>
             <p
               style={{
@@ -409,11 +431,13 @@ export default function RootLayout() {
                 {lang === "en" ? "Home" : "Главный"}
               </NavLink>{" "}
               <span style={{ margin: "0 10px" }}>{">"}</span>{" "}
-              {
-                lang === "en" ?
-                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.en :
-                sect.find((route) => link?.pathname?.split("/")?.[2] === route.route)?.ru
-              } 
+              {lang === "en"
+                ? sect.find(
+                    (route) => link?.pathname?.split("/")?.[2] === route.route
+                  )?.en
+                : sect.find(
+                    (route) => link?.pathname?.split("/")?.[2] === route.route
+                  )?.ru}
             </p>
           </div>
         </span>
@@ -424,7 +448,14 @@ export default function RootLayout() {
           <img src={logo} alt="" onClick={() => navigate(`/${lang}`)} />
           <ul className="navigation">
             <li>
-              <Link to={`/${lang}`} className={!link?.pathname?.includes(`/${lang}/`) ? "active" : ""}>{lang === "en" ? "Home" : "Главный"}</Link>
+              <Link
+                to={`/${lang}`}
+                className={
+                  !link?.pathname?.includes(`/${lang}/`) ? "active" : ""
+                }
+              >
+                {lang === "en" ? "Home" : "Главный"}
+              </Link>
             </li>
             <li>
               <NavLink to={`/${lang}/projects`}>
@@ -622,6 +653,24 @@ export default function RootLayout() {
                 >
                   {lang === "en" ? "Contact Us" : "Связаться"}
                 </NavLink>
+                <div className="menu-item nav-products-sm">
+                  <Link
+                    to={lang === "en" ? "" : nextLang}
+                    onClick={() => {
+                      langHandler("en");
+                    }}
+                  >
+                    <img src={langs[0].img} alt="" /> en{" "}
+                  </Link>
+                  <Link
+                    to={lang === "ru" ? "" : nextLang}
+                    onClick={() => {
+                      langHandler("ru");
+                    }}
+                  >
+                    <img src={langs[1].img} alt="" /> ru
+                  </Link>
+                </div>
               </div>
             </div>
           )}

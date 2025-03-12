@@ -1,6 +1,6 @@
 import "./Header.css";
 import { useState } from "react";
-import { Link, NavLink, useParams } from "react-router";
+import { Link, NavLink, useLocation, useParams } from "react-router";
 import { FaStamp } from "react-icons/fa";
 import { GiTrophyCup } from "react-icons/gi";
 import { FaGlobeAmericas } from "react-icons/fa";
@@ -11,11 +11,15 @@ import logo from "../../assets/logo.png";
 import lava from "../../assets/lava.mp4";
 import en from "../../assets/eng.png"
 import ru from "../../assets/rus.png"
+import {langs} from "../../assets/product-data"
 import SolutionSlider from "../sliders/SolutionSlider";
 
 export default function HomeHeader() {
   const [menu, setMenu] = useState(false);
   const {lang} = useParams();
+  const {pathname} = useLocation();
+  const nextLang =  decodeURIComponent(pathname)?.replace(lang, langs.find((e)=>e.lang !== lang)?.lang);
+
 
   const closeMenu = () => {
     setMenu(false);
@@ -84,6 +88,24 @@ export default function HomeHeader() {
                 >
                 {lang === "en" ? "Contact Us" : "Связаться"}
               </NavLink>
+              <div className="menu-item nav-products-sm">
+                  <Link
+                    to={lang === "en" ? "" : nextLang}
+                    onClick={() => {
+                      langHandler("en");
+                    }}
+                  >
+                    <img src={langs[0].img} alt="" /> en{" "}
+                  </Link>
+                  <Link
+                    to={lang === "ru" ? "" : nextLang}
+                    onClick={() => {
+                      langHandler("ru");
+                    }}
+                  >
+                    <img src={langs[1].img} alt="" /> ru
+                  </Link>
+                </div>
             </div>
           </div>
         )}
