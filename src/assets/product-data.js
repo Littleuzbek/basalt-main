@@ -295,19 +295,44 @@ import scada2 from "./solutionUnderProduct/scada/SCADA2.jpg";
 import scada3 from "./solutionUnderProduct/scada/SCADA3.jpg";
 import scada4 from "./solutionUnderProduct/scada/SCADA4.png";
 import scada5 from "./solutionUnderProduct/scada/SCADA5.png";
-import mls1 from "./solutionUnderProduct/mls/MLS1.jpg"
-import mls2 from "./solutionUnderProduct/mls/MLS2.jpg"
-import mls3 from "./solutionUnderProduct/mls/MLS3.jpg"
-import fls1 from "./solutionUnderProduct/fls/FLS1.jpg"
-import fls2 from "./solutionUnderProduct/fls/FLS2.jpg"
-import fls3 from "./solutionUnderProduct/fls/FLS3.jpg"
-import fls4 from "./solutionUnderProduct/fls/FLS4.jpg"
-import sds1 from "./solutionUnderProduct/sds/sds1.jpg"
-import sds2 from "./solutionUnderProduct/sds/sds2.jpg"
-import sds3 from "./solutionUnderProduct/sds/sds3.jpg"
-import chr1 from "./solutionUnderProduct/chr/chr1.jpg"
-import chr2 from "./solutionUnderProduct/chr/chr2.jpg"
-import chr3 from "./solutionUnderProduct/chr/chr3.jpg"
+import mls1 from "./solutionUnderProduct/mls/MLS1.jpg";
+import mls2 from "./solutionUnderProduct/mls/MLS2.jpg";
+import mls3 from "./solutionUnderProduct/mls/MLS3.jpg";
+import fls1 from "./solutionUnderProduct/fls/FLS1.jpg";
+import fls2 from "./solutionUnderProduct/fls/FLS2.jpg";
+import fls3 from "./solutionUnderProduct/fls/FLS3.jpg";
+import fls4 from "./solutionUnderProduct/fls/FLS4.jpg";
+import sds1 from "./solutionUnderProduct/sds/sds1.jpg";
+import sds2 from "./solutionUnderProduct/sds/sds2.jpg";
+import sds3 from "./solutionUnderProduct/sds/sds3.jpg";
+import chr1 from "./solutionUnderProduct/chr/chr1.jpg";
+import chr2 from "./solutionUnderProduct/chr/chr2.jpg";
+import chr3 from "./solutionUnderProduct/chr/chr3.jpg";
+import rhms1 from "./solutionUnderProduct/rmhs/rhms1.jpg";
+import rhms2 from "./solutionUnderProduct/rmhs/rhms2.jpg";
+import rhms3 from "./solutionUnderProduct/rmhs/rhms3.jpg";
+import rhms4 from "./solutionUnderProduct/rmhs/rhms4.jpg";
+import rhms5 from "./solutionUnderProduct/rmhs/rhms5.jpg";
+import rhms6 from "./solutionUnderProduct/rmhs/rhms6.jpg";
+import wwts1 from "./solutionUnderProduct/wwts/wwts.jpg";
+import cas1 from "./solutionUnderProduct/cas/cas1.webp";
+import cas2 from "./solutionUnderProduct/cas/cas2.webp";
+import cas3 from "./solutionUnderProduct/cas/cas3.png";
+import wcs1 from "./solutionUnderProduct/wcs/WCS1.jpg";
+import wcs2 from "./solutionUnderProduct/wcs/WCS2.jpg";
+import wcs3 from "./solutionUnderProduct/wcs/WCS3.jpg";
+import wcs4 from "./solutionUnderProduct/wcs/WCS4.jpg";
+import wcs5 from "./solutionUnderProduct/wcs/WCS5.png";
+import wcs6 from "./solutionUnderProduct/wcs/WCS6.png";
+import pds1 from "./solutionUnderProduct/pds/pds1.jpg"
+import pds2 from "./solutionUnderProduct/pds/pds2.jpg"
+import pds3 from "./solutionUnderProduct/pds/pds3.jpg"
+import pds4 from "./solutionUnderProduct/pds/pds4.jpg"
+import pds5 from "./solutionUnderProduct/pds/pds5.png"
+import lab1 from "./solutionUnderProduct/lab/lab1.jpg"
+import lab2 from "./solutionUnderProduct/lab/lab2.jpg"
+import lab3 from "./solutionUnderProduct/lab/lab3.jpg"
+import lab4 from "./solutionUnderProduct/lab/lab4.jpg"
 
 import en from "./eng.png";
 import ru from "./rus.png";
@@ -1253,7 +1278,13 @@ export const solFiber = {
         "solutions/monorail-loader-system",
         "solutions/furnace-loader-system",
         "solutions/sizing-distribution-system",
-        "solutions/chemical-reactor"
+        "solutions/chemical-reactor",
+        "solutions/raw-materials-handling-system",
+        "solutions/waste-water-treatment-and-supply",
+        "solutions/compressed-air-system",
+        "solutions/water-cooling-systems",
+        "solutions/product-drier-system",
+        "solutions/laboratory-complex",
       ],
     },
   },
@@ -1773,14 +1804,14 @@ export const control = {
             "Process supervision and visualisation;",
             "PLC - levels with independent operating units;",
             "Back-up hardware levels;",
-            "Manual/field operation level;"
+            "Manual/field operation level.",
           ],
           [
-            "Individually designed control cabinets",
-            "Equipment adapted to local network conditions",
-            "Control components from well known brands",
-            "FAT (Factory Acceptance Test) in our company",
-          ]
+            "Individually designed control cabinets;",
+            "Equipment adapted to local network conditions;",
+            "Control components from well known brands;",
+            "FAT (Factory Acceptance Test) in our company.",
+          ],
         ],
         ru: [
           [
@@ -1798,25 +1829,14 @@ export const control = {
             "Контроль и визуализация процесса;",
             "ПЛК - уровни с независимыми рабочими блоками;",
             "Уровни резервного оборудования;",
-            "Уровень ручного/полевого управления;"
+            "Уровень ручного/полевого управления.",
           ],
           [
-            "Индивидуально спроектированные шкафы управления",
-            "Оборудование, адаптированное к условиям локальной сети",
-            "Компоненты управления известных брендов",
-            "FAT (заводские приемочные испытания) в нашей компании",
-          ]
-        ],
-      },
-      ulListItem2: {
-        en: [
-          
-        ],
-        ru: [
-          "Индивидуально спроектированные шкафы управления",
-          "Оборудование, адаптированное к условиям локальной сети",
-          "Компоненты управления известных брендов",
-          "FAT (заводские приемочные испытания) в нашей компании",
+            "Индивидуально спроектированные шкафы управления;",
+            "Оборудование, адаптированное к условиям локальной сети;",
+            "Компоненты управления известных брендов;",
+            "FAT (заводские приемочные испытания) в нашей компании.",
+          ],
         ],
       },
     },
@@ -1901,6 +1921,43 @@ export const pms = {
             "This system controls the work of Absorption Chiller. It receives data on the heat carrier from the heat exchanger control system. Cold coolant is accumulated in tanks and disassembled upon request from external systems such as ventilation and air conditioning, as well as circulating water supply.",
           ],
         ],
+        ru: [
+          [
+            "температурный режим внутри печи;",
+            "питатели;",
+            "разрежение (разряжение) в печи;",
+            "температура нагрева воздуха для горения;",
+            "температура до и после теплообменника;",
+            "давление воздуха на горелках.",
+          ],
+          [
+            "Данная система автоматически управляет шнековым питателем печи;",
+            "Исходными данными для работы являются сигнал с уровнемера или задание на скорость загрузки от системы управления печью;",
+            "Система выдает информацию об остатке базальта в бункере в систему управления рельсовым погрузчиком.",
+          ],
+          [
+            "Данная система управляет одновременной работой двух рельсовых погрузчиков;",
+            "Система задает минимальный и максимальный вес базальта в каждом бункере печи;",
+            "На основании данных об остатке базальта в бункерах, полученных от загрузчиков печи, система автоматически пополняет (дополняет) их.",
+          ],
+          [
+            "Данная система представляет собой совокупность полуавтоматическая и автоматическая система:",
+            "Часть системы управления, отвечающая за загрузку вагонов-погрузчиков, является автоматической и запускается по сигналу о готовности вагона-погрузчика к заполнению;",
+            "Система, отвечающая за мойку, сушку, сортировку и т. д., является полуавтоматической, так как требует ручного труда и присутствия человека.",
+          ],
+          [
+            "Данная система управляет работой насосов, сухого охладителя и градирни в зависимости от данных о температуре воды, полученных от систем управления печами.",
+          ],
+          [
+            "Данная система обеспечивает подачу и возврат смазки. Рассчитывает необходимое количество смазки в системе, исходя из предполагаемого расхода смазки в час для каждой из работающих печей. Выполняет автоматическую подготовку смазки с учетом всех остатков и времени, необходимого для ее подготовки. На основе рецепта оценивает количество остатков компонентов, необходимых для приготовления смазки, и сигнализирует о необходимости их пополнения.",
+          ],
+          [
+            "Данная система управляет отводом тепла от дымовых газов. В зависимости от температуры наружного воздуха нагретая вода может подавать, как на АБХМ в летнее время, так и на отопление в зимнее время. Система получает информацию о расчетном количестве тепла, уходящего с дымовыми газами, и корректирует свою работу по показаниям датчиков температуры.",
+          ],
+          [
+            "Эта система контролирует работу абсорбционного чиллера. Данные о теплоносителе она получает от системы управления теплообменником. Холодный теплоноситель накапливается в баках и по требованию демонтируется из внешних систем, таких как вентиляция и кондиционирование, а также оборотного водоснабжения.",
+          ],
+        ],
       },
     },
   },
@@ -1944,64 +2001,215 @@ export const scada = {
 };
 
 export const mls = {
-  images: [
-    mls1,
-    mls2,
-    mls3,
-  ],
+  images: [mls1, mls2, mls3],
   videos: null,
   general: {
     title: {
       en: "Monorail Loader system",
-      ru: "Монорельсовая система загрузки"
-    }
+      ru: "Монорельсовая система загрузки",
+    },
   },
-  adv: null
+  adv: null,
 };
 
 export const fls = {
-  images: [fls1,fls2,fls3,fls4],
+  images: [fls1, fls2, fls3, fls4],
   videos: null,
   general: {
     title: {
       en: "Furnace loader system ",
-      ru: "Система загрузки печи"
+      ru: "Система загрузки печи",
     },
   },
-  adv: null
+  adv: null,
 };
 
 export const sds = {
-  images: [
-    sds1,
-    sds2,
-    sds3,
-  ],
+  images: [sds1, sds2, sds3],
   videos: null,
   general: {
     title: {
       en: "Sizing Distribution System",
-      ru: "Система распределения размеров"
+      ru: "Система распределения размеров",
     },
   },
-  adv: null
-}
+  adv: null,
+};
 
 export const chr = {
-  images: [
-    chr1,
-    chr2,
-    chr3,
-  ],
+  images: [chr1, chr2, chr3],
   videos: null,
   general: {
     title: {
       en: "Chemical reactor",
-      ru: "Химический реактор"
+      ru: "Химический реактор",
     },
   },
-  adv: null
-}
+  adv: null,
+};
+
+export const rhms = {
+  images: [rhms1, rhms2, rhms3, rhms4, rhms5, rhms6],
+  videos: null,
+  general: {
+    title: {
+      en: "Raw materials handling system",
+      ru: "Система обработки сырья",
+    },
+  },
+  adv: null,
+};
+
+export const wwts = {
+  images: [wwts1],
+  videos: null,
+  general: {
+    title: {
+      en: "Waste Water Treatment and Supply",
+      ru: "Очистка и подача сточных вод",
+    },
+  },
+  adv: null,
+};
+
+export const cas = {
+  images: [cas1, cas2, cas3],
+  videos: null,
+  general: {
+    title: {
+      en: "Compressed air system",
+      ru: "Система сжатого воздуха",
+    },
+    p: {
+      en: [
+        "The compressed air system supplies the compressed air for the whole float-line in the required quality.",
+      ],
+      ru: [
+        "Система сжатого воздуха обеспечивает подачу сжатого воздуха необходимого качества для всей поплавковой линии.",
+      ],
+    },
+  },
+  adv: {
+    list: {
+      title: {
+        en: "Compressed air system",
+        ru: "Система сжатого воздуха",
+      },
+      ulListTitle: {
+        en: ["It consists of:"],
+        ru: ["Он состоит из:"],
+      },
+      ulListItem: {
+        en: [
+          [
+            "Compressors;",
+            "Treatment of compressed air;",
+            "Pressure control stations and piping;",
+            "Instrumentation and automation.",
+          ],
+        ],
+        ru: [
+          [
+            "Компрессоры;",
+            "Обработка сжатого воздуха;",
+            "Станции регулирования давления и трубопроводы;",
+            "Контрольно-измерительные приборы и автоматика.",
+          ],
+        ],
+      },
+    },
+  },
+};
+
+export const wcs = {
+  images: [wcs1, wcs2, wcs3, wcs4, wcs5, wcs6],
+  videos: null,
+  general: {
+    title: {
+      en: "Water Cooling Systems",
+      ru: "Системы водяного охлаждения",
+    },
+    p: {
+      en: [
+        "In each basalt melting furnace cooling water is required to cool the machines, electrode holders, glass level measuring system or other equipment close to the furnace. BASALT ENG CORP provides cooling water systems with different possibilities to cool down the heated water: closed cooling systems where the water is cooled through a two-circle cooling tower, an adiabatic back cooling unit and/or water to water heat exchanger (to connect to the main existing system).",
+        "An emergency water feeding unit, supplied by fire/city water, guarantees a stable supply of the required cooling amount during a failure of the main cooling water system.",
+        "Flow meter and sensors indicate the volume flow to each customer and give an alarm to the PLC in case of minimum flow rate. Biocide and hardness dosing units are optionally available.",
+        "The whole cooling system is equipped with stainless steel parts/pipes. This guarantees a corrosion free system in the whole process.",
+      ],
+      ru: [
+        "В каждой печи для плавки базальта требуется охлаждающая вода для охлаждения машин, держателей электродов, системы измерения уровня стекла или другого оборудования, находящегося рядом с печью. BASALT ENG CORP предоставляет системы охлаждающей воды с различными возможностями для охлаждения нагретой воды: закрытые системы охлаждения, в которых вода охлаждается через двухконтурную градирню, адиабатический блок обратного охлаждения и/или теплообменник вода-вода (для подключения к основной существующей системе).",
+        "Аварийный блок подачи воды, питаемый пожарным/городским водопроводом, гарантирует стабильную подачу необходимого количества охлаждающей воды при отказе основной системы охлаждающей воды",
+        "Расходомер и датчики показывают объемный расход для каждого потребителя и подают сигнал тревоги на ПЛК в случае минимального расхода. Дополнительно доступны дозаторы биоцида и жесткости",
+        "Вся система охлаждения оснащена деталями/трубами из нержавеющей стали. Это гарантирует отсутствие коррозии в системе на протяжении всего процесса",
+      ],
+    },
+  },
+  adv: {
+    list: {
+      title: {
+        en: "Water Cooling Systems",
+        ru: "Системы водяного охлаждения",
+      },
+      ulListTitle: {
+        en: ["MODULES OF THE CLOSED SYSTEM:"],
+        ru: ["МОДУЛИ ЗАКРЫТОЙ СИСТЕМЫ:"],
+      },
+      ulListItem: {
+        en: [
+          [
+            "Water cooler or water to water heat exchanger;",
+            "Supply and return water manifold with pressure monitoring;",
+            "Pump skid;",
+            "Cooling water tank.",
+          ],
+        ],
+        ru: [
+          [
+            "Водяной охладитель или теплообменник вода-вода;",
+            "Коллектор подачи и возврата воды с контролем давления;",
+            "Насосный блок;",
+            "Бачок охлаждающей воды.",
+          ],
+        ]
+      },
+    },
+  },
+};
+
+export const pds = {
+  images: [
+    pds1,
+    pds2,
+    pds3,
+    pds4,
+    pds5,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Product drier system",
+      ru: "Система сушки продукта",
+    },
+  },
+  adv: null,
+};
+
+export const lab = {
+  images: [
+    lab1,
+    lab2,
+    lab3,
+    lab4,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Laboratory complex",
+      ru: "Лабораторный комплекс",
+    },
+  },
+  adv: null,
+};
 
 export const langs = [
   { lang: "en", img: en },

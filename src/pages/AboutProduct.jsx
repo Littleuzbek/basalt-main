@@ -255,6 +255,12 @@ export const productLoader = async ({ params }) => {
     "furnace-loader-system": () => import("../assets/product-data").then((m) => m.fls),
     "sizing-distribution-system": () => import("../assets/product-data").then((m) => m.sds),
     "chemical-reactor": () => import("../assets/product-data").then((m) => m.chr),
+    "raw-materials-handling-system": () => import("../assets/product-data").then((m) => m.rhms),
+    "waste-water-treatment-and-supply": () => import("../assets/product-data").then((m) => m.wwts),
+    "compressed-air-system": () => import("../assets/product-data").then((m) => m.cas),
+    "water-cooling-systems": () => import("../assets/product-data").then((m) => m.wcs),
+    "product-drier-system": () => import("../assets/product-data").then((m) => m.pds),
+    "laboratory-complex": () => import("../assets/product-data").then((m) => m.lab),
   };
 
   if (routes[id]) {
