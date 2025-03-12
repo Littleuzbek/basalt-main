@@ -247,7 +247,14 @@ export const productLoader = async ({ params }) => {
       import("../assets/product-data").then((m) => m.burnerTyped),
     "burner-type-h": () =>
       import("../assets/product-data").then((m) => m.burnerTypeh),
-    winders: () => import("../assets/product-data").then((m) => m.winding),
+    "winders": () => import("../assets/product-data").then((m) => m.winding),
+    "plant-automation-system": () => import("../assets/product-data").then((m) => m.pms),
+    "measurement-and-control-equipments": () => import("../assets/product-data").then((m) => m.control),
+    "scada": () => import("../assets/product-data").then((m) => m.scada),
+    "monorail-loader-system": () => import("../assets/product-data").then((m) => m.mls),
+    "furnace-loader-system": () => import("../assets/product-data").then((m) => m.fls),
+    "sizing-distribution-system": () => import("../assets/product-data").then((m) => m.sds),
+    "chemical-reactor": () => import("../assets/product-data").then((m) => m.chr),
   };
 
   if (routes[id]) {

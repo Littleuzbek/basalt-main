@@ -22,6 +22,7 @@ import AboutProduct from "./pages/AboutProduct";
 import { productLoader } from "./pages/AboutProduct"
 import wrench from "./assets/wrench.png"
 import FurnaceEquipment from './pages/FurnaceEquipment';
+import PMS from './pages/PMS';
 
 function HydrateFallback() {
   return <p>Loading...</p>;
@@ -53,6 +54,7 @@ function App() {
           <Route path='solutions' element={<Solutions />}/>
           <Route path='solutions/:id' element={<AboutProduct />} loader={productLoader} HydrateFallback={HydrateFallback}/>
           <Route path='technological-furnace-equipment' element={<FurnaceEquipment />}/>
+          <Route path='complete-plant-automation-system' element={<PMS />}/>
           <Route path='news' element={<News />}/>
           <Route path='partners' element={<Partners />}/>
           <Route path='about-us' element={<AboutUs />} />

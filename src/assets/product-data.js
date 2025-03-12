@@ -290,11 +290,24 @@ import pms1 from "./solutionUnderProduct/pms/PMS1.jpg";
 import pms2 from "./solutionUnderProduct/pms/PMS2.jpg";
 import pms3 from "./solutionUnderProduct/pms/PMS3.jpg";
 import pms4 from "./solutionUnderProduct/pms/PMS4.jpg";
-import scada1 from "./solutionUnderProduct/scada/SCADA1.jpg"
-import scada2 from "./solutionUnderProduct/scada/SCADA2.jpg"
-import scada3 from "./solutionUnderProduct/scada/SCADA3.jpg"
-import scada4 from "./solutionUnderProduct/scada/SCADA4.png"
-import scada5 from "./solutionUnderProduct/scada/SCADA5.png"
+import scada1 from "./solutionUnderProduct/scada/SCADA1.jpg";
+import scada2 from "./solutionUnderProduct/scada/SCADA2.jpg";
+import scada3 from "./solutionUnderProduct/scada/SCADA3.jpg";
+import scada4 from "./solutionUnderProduct/scada/SCADA4.png";
+import scada5 from "./solutionUnderProduct/scada/SCADA5.png";
+import mls1 from "./solutionUnderProduct/mls/MLS1.jpg"
+import mls2 from "./solutionUnderProduct/mls/MLS2.jpg"
+import mls3 from "./solutionUnderProduct/mls/MLS3.jpg"
+import fls1 from "./solutionUnderProduct/fls/FLS1.jpg"
+import fls2 from "./solutionUnderProduct/fls/FLS2.jpg"
+import fls3 from "./solutionUnderProduct/fls/FLS3.jpg"
+import fls4 from "./solutionUnderProduct/fls/FLS4.jpg"
+import sds1 from "./solutionUnderProduct/sds/sds1.jpg"
+import sds2 from "./solutionUnderProduct/sds/sds2.jpg"
+import sds3 from "./solutionUnderProduct/sds/sds3.jpg"
+import chr1 from "./solutionUnderProduct/chr/chr1.jpg"
+import chr2 from "./solutionUnderProduct/chr/chr2.jpg"
+import chr3 from "./solutionUnderProduct/chr/chr3.jpg"
 
 import en from "./eng.png";
 import ru from "./rus.png";
@@ -1235,9 +1248,12 @@ export const solFiber = {
       },
       checkoutBtn: [
         "technological-furnace-equipment",
-        // "solutions/bushing",
-        // "solutions/burner",
-        // "solutions/winding",
+        null,
+        "complete-plant-automation-system",
+        "solutions/monorail-loader-system",
+        "solutions/furnace-loader-system",
+        "solutions/sizing-distribution-system",
+        "solutions/chemical-reactor"
       ],
     },
   },
@@ -1736,53 +1752,65 @@ export const control = {
         en: "Measurement and control equipments.",
         ru: "Измерительное и контрольное оборудование.",
       },
-      ulListTitle: null,
+      ulListTitle: {
+        en: [null, "FEATURES"],
+        ru: [null, "ФУНКЦИИ"],
+      },
       ulListItem: {
         en: [
-          "Temperature measurement and control;",
-          "Chimney draft measurement and control;",
-          "Furnace pressure measurement and control;",
-          "Lava level measurement and control;",
-          "Quantity measurement and control;",
-          "Process PLC control unit;",
-          "Independent safety PLC to meet highest safety standards;",
-          "MCC (Motor Control Cabinet) and power cabinets (e.g. oil preheater, boosting system);",
-          "SCADA - Computer supervisory system;",
-          "UPS – Power unit;",
-          "Furnace TV Camera;",
-          "Process supervision and visualisation;",
-          "PLC - levels with independent operating units;",
-          "Back-up hardware levels;",
-          "Manual/field operation level;",
+          [
+            "Temperature measurement and control;",
+            "Chimney draft measurement and control;",
+            "Furnace pressure measurement and control;",
+            "Lava level measurement and control;",
+            "Quantity measurement and control;",
+            "Process PLC control unit;",
+            "Independent safety PLC to meet highest safety standards;",
+            "MCC (Motor Control Cabinet) and power cabinets (e.g. oil preheater, boosting system);",
+            "SCADA - Computer supervisory system;",
+            "UPS – Power unit;",
+            "Furnace TV Camera;",
+            "Process supervision and visualisation;",
+            "PLC - levels with independent operating units;",
+            "Back-up hardware levels;",
+            "Manual/field operation level;"
+          ],
+          [
+            "Individually designed control cabinets",
+            "Equipment adapted to local network conditions",
+            "Control components from well known brands",
+            "FAT (Factory Acceptance Test) in our company",
+          ]
         ],
         ru: [
-          "Измерение и контроль температуры;",
-          "Измерение и контроль тяги дымохода;",
-          "Измерение и контроль давления печи;",
-          "Измерение и контроль уровня лавы;",
-          "Измерение и контроль количества;",
-          "Блок управления ПЛК процесса;",
-          "Независимый ПЛК безопасности для соответствия самым высоким стандартам безопасности;",
-          "MCC (шкаф управления двигателем) и силовые шкафы (например, подогреватель масла, система повышения давления);",
-          "SCADA - компьютерная система контроля;",
-          "ИБП - блок питания;",
-          "Телекамера печи;",
-          "Контроль и визуализация процесса;",
-          "ПЛК - уровни с независимыми рабочими блоками;",
-          "Уровни резервного оборудования;",
-          "Уровень ручного/полевого управления;",
+          [
+            "Измерение и контроль температуры;",
+            "Измерение и контроль тяги дымохода;",
+            "Измерение и контроль давления печи;",
+            "Измерение и контроль уровня лавы;",
+            "Измерение и контроль количества;",
+            "Блок управления ПЛК процесса;",
+            "Независимый ПЛК безопасности для соответствия самым высоким стандартам безопасности;",
+            "MCC (шкаф управления двигателем) и силовые шкафы (например, подогреватель масла, система повышения давления);",
+            "SCADA - компьютерная система контроля;",
+            "ИБП - блок питания;",
+            "Телекамера печи;",
+            "Контроль и визуализация процесса;",
+            "ПЛК - уровни с независимыми рабочими блоками;",
+            "Уровни резервного оборудования;",
+            "Уровень ручного/полевого управления;"
+          ],
+          [
+            "Индивидуально спроектированные шкафы управления",
+            "Оборудование, адаптированное к условиям локальной сети",
+            "Компоненты управления известных брендов",
+            "FAT (заводские приемочные испытания) в нашей компании",
+          ]
         ],
-      },
-      ulListTitle2: {
-        en: ["FEATURES"],
-        ru: ["ФУНКЦИИ"],
       },
       ulListItem2: {
         en: [
-          "Individually designed control cabinets",
-          "Equipment adapted to local network conditions",
-          "Control components from well known brands",
-          "FAT (Factory Acceptance Test) in our company",
+          
         ],
         ru: [
           "Индивидуально спроектированные шкафы управления",
@@ -1861,17 +1889,17 @@ export const pms = {
             "The system responsible for washing, drying, sorting, etc. is semi-automatic as it requires manual labor and human presence.",
           ],
           [
-            "This system controls the operation of the pumps, dry cooler and cooling tower depending on the water temperature data received from the furnace control systems."
+            "This system controls the operation of the pumps, dry cooler and cooling tower depending on the water temperature data received from the furnace control systems.",
           ],
           [
-           "This system provides supply and return of the lubricant. Calculates the required amount of lubricant in the system, based on the estimated consumption of lubricant per hour for each of the operating furnaces. Executes automatic preparation of the lubricant, taking into account all the residues and the time required for its preparation. Based on the recipe, it estimates the amount of residues of the components necessary for the preparation of the lubricant and signals the need to replenish them."
+            "This system provides supply and return of the lubricant. Calculates the required amount of lubricant in the system, based on the estimated consumption of lubricant per hour for each of the operating furnaces. Executes automatic preparation of the lubricant, taking into account all the residues and the time required for its preparation. Based on the recipe, it estimates the amount of residues of the components necessary for the preparation of the lubricant and signals the need to replenish them.",
           ],
           [
-            "This system controls the heat removal from flue gases. В зависимости от наружной температуры нагретая вода может подаваться, как на АБХМ в летнее время, так и на отопление в зимнее время. The system receives information about the calculated amount of heat leaving with flue gases and corrects its work according to temperature sensors."
+            "This system controls the heat removal from flue gases. В зависимости от наружной температуры нагретая вода может подаваться, как на АБХМ в летнее время, так и на отопление в зимнее время. The system receives information about the calculated amount of heat leaving with flue gases and corrects its work according to temperature sensors.",
           ],
           [
-            "This system controls the work of Absorption Chiller. It receives data on the heat carrier from the heat exchanger control system. Cold coolant is accumulated in tanks and disassembled upon request from external systems such as ventilation and air conditioning, as well as circulating water supply."
-          ]
+            "This system controls the work of Absorption Chiller. It receives data on the heat carrier from the heat exchanger control system. Cold coolant is accumulated in tanks and disassembled upon request from external systems such as ventilation and air conditioning, as well as circulating water supply.",
+          ],
         ],
       },
     },
@@ -1879,46 +1907,100 @@ export const pms = {
 };
 
 export const scada = {
-  images: [
-    scada1,
-    scada2,
-    scada3,
-    scada4,
-    scada5,
-  ],
+  images: [scada1, scada2, scada3, scada4, scada5],
   videos: null,
   general: {
     title: {
       en: "scada",
-      ru: "scada"
+      ru: "scada",
     },
-    p: null
+    p: null,
   },
   adv: {
     list: {
       title: {
         en: "Scada automation system",
-        ru: "Система автоматизации Scada"
+        ru: "Система автоматизации Scada",
       },
       p: {
         en: "In addition to exchanging data with each other, all control cabinets are connected to a single SCADA system. The SCADA system is a computer on the monitor of which information from all connected cabinets is displayed. Access to information is limited by access rights, for example:",
-        ru: "Помимо обмена данными между собой, все шкафы управления подключены к единой системе SCADA. Система SCADA представляет собой компьютер, на мониторе которого отображается информация со всех подключенных шкафов. Доступ к информации ограничен правами доступа, например:"
+        ru: "Помимо обмена данными между собой, все шкафы управления подключены к единой системе SCADA. Система SCADA представляет собой компьютер, на мониторе которого отображается информация со всех подключенных шкафов. Доступ к информации ограничен правами доступа, например:",
       },
       ulListTitle: null,
       ulListItem: {
         en: [
           "The manager can connect to the SCADA system from his computer or mobile phone and view all the data on the operation of the plant: the number of operating furnaces, productivity, gas consumption, electricity consumption, air consumption for furnaces, temperatures, accident log, etc.",
           "The duty shift supervisor of the sizing lubricant's section can receive information about the work of his section and the need to replenish stocks of components.",
-          "Messages about emergencies can come to all users who are at the workplace at the time of their occurrence."
+          "Messages about emergencies can come to all users who are at the workplace at the time of their occurrence.",
         ],
         ru: [
           "Руководитель может подключиться к системе SCADA со своего компьютера или мобильного телефона и просмотреть все данные о работе завода: количество работающих печей, производительность, расход газа, расход электроэнергии, расход воздуха для печей, температуры, журнал аварий и т. д.",
           "Начальник дежурной смены участка смазочно-охлаждающей жидкости может получать информацию о работе своего участка и необходимости пополнения запасов комплектующих.",
-          "Сообщения об аварийных ситуациях могут поступать всем пользователям, находящимся на рабочем месте в момент их возникновения."
-        ]
-      }
+          "Сообщения об аварийных ситуациях могут поступать всем пользователям, находящимся на рабочем месте в момент их возникновения.",
+        ],
+      },
+    },
+  },
+};
+
+export const mls = {
+  images: [
+    mls1,
+    mls2,
+    mls3,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Monorail Loader system",
+      ru: "Монорельсовая система загрузки"
     }
-  }
+  },
+  adv: null
+};
+
+export const fls = {
+  images: [fls1,fls2,fls3,fls4],
+  videos: null,
+  general: {
+    title: {
+      en: "Furnace loader system ",
+      ru: "Система загрузки печи"
+    },
+  },
+  adv: null
+};
+
+export const sds = {
+  images: [
+    sds1,
+    sds2,
+    sds3,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Sizing Distribution System",
+      ru: "Система распределения размеров"
+    },
+  },
+  adv: null
+}
+
+export const chr = {
+  images: [
+    chr1,
+    chr2,
+    chr3,
+  ],
+  videos: null,
+  general: {
+    title: {
+      en: "Chemical reactor",
+      ru: "Химический реактор"
+    },
+  },
+  adv: null
 }
 
 export const langs = [
