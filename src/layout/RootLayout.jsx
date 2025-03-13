@@ -115,7 +115,6 @@ export default function RootLayout() {
     }, 100);
   }
   
-  console.log(link.pathname);
   return (
     <>
       <div
@@ -267,7 +266,7 @@ export default function RootLayout() {
             </li>
             <li>
               <NavLink to={`/${lang}/contact-us`}>
-                {lang === "en" ? "Contact Us" : "Связаться"}
+                {lang === "en" ? "Contact Us" : "Контакты"}
               </NavLink>
             </li>
             <li>
@@ -352,7 +351,7 @@ export default function RootLayout() {
                   className="menu-item"
                   onClick={() => closeMenu()}
                 >
-                  {lang === "en" ? "Contact Us" : "Связаться"}
+                  {lang === "en" ? "Contact Us" : "Контакты"}
                 </NavLink>
                 <div className="menu-item nav-products-sm">
                   <Link
@@ -510,52 +509,59 @@ export default function RootLayout() {
               <div className="navigation-drop">
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-fiber`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of Basalt continuous fiber"
-                    : "Производство базальтового волокна "}
+                    : "ПРОИЗВОДСТВО БНВ (БАЗАЛЬТОВОГО НЕПРЕРЫВНОГО ВОЛОКНА)Производство базальтового волокна"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-rockwool`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of Basalt rockwool"
-                    : "Производство базальтового каменного волокна"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ КАМЕНОЙ ВАТЫ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-pipes`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of BRP continuous pipes"
-                    : "Производство непрерывных труб BRP"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТА КОМПОЗИТНЫХ ТРУБ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-chopped-strand`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of Basalt continuous chopped strand"
-                    : "Производство базальтовой непрерывной рубленой нити"}
+                    : "ППРОИЗВОДСТВО БАЗАЛЬТОВОЙ ФИБРЫ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of Basalt reinforcement bars"
-                    : "Производство базальтовой арматуры"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ АРМАТУРЫ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-geogrids`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of Basalt geogrids and facade mesh"
-                    : "Производство базальтовых георешеток и лачевой сетки"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВЫХ ФАСАДНЫХ И ГЕОСЕТОК"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-fabric`}
+                  onClick={() => navigationHandler()}
                 >
                   {lang === "en"
                     ? "production of Basalt fabric"
-                    : "производство базальтовой ткани"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ КРУЧЕНОЙ НИТИ И ТКАНИ"}
                 </Link>
               </div>
             </li>
@@ -576,7 +582,7 @@ export default function RootLayout() {
             </li>
             <li>
               <NavLink to={`/${lang}/contact-us`}>
-                {lang === "en" ? "Contact Us" : "Связаться"}
+                {lang === "en" ? "Contact Us" : "Контакты"}
               </NavLink>
             </li>
             <li>
@@ -662,7 +668,7 @@ export default function RootLayout() {
                   className="menu-item"
                   onClick={() => closeMenu()}
                 >
-                  {lang === "en" ? "Contact Us" : "Связаться"}
+                  {lang === "en" ? "Contact Us" : "Контакты"}
                 </NavLink>
                 <div className="menu-item nav-products-sm">
                   <Link
