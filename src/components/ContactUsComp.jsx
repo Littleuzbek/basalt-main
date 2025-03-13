@@ -165,7 +165,7 @@ Time: ${day}.${month}.${year}, ${hours}:${minutes}
 
       <div className="home-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d374.9148917183284!2d69.19659617362251!3d41.25838683608081!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8a03c31e5211%3A0xb776b77badc7f650!2zNzU1Vys5SjksINCi0L5zaGtlbnQsIFRvc2hrZW50LCBPyrt6YmVraXN0b24!5e0!3m2!1suz!2s!4v1739026493000!5m2!1suz!2s"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5998.577854676487!2d69.19575211908331!3d41.259044615116466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2a4f0cdcfd%3A0x5b5faee9f8460425!2sBASALT%20UZBEKISTAN!5e0!3m2!1suz!2sus!4v1741895078009!5m2!1suz!2sus"
           width="600"
           height="450"
           style={{ border: "0" }}

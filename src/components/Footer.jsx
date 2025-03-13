@@ -105,7 +105,7 @@ export default function Footer() {
                     <p className="FooterLatest_text">
                         {lang === "en" ? 
                         "Main usage of baslt fiber and composite materials" :
-                        "Основное применение базтового волокна и композитных материалов"}
+                        "Использованые базтовые материали"}
                     </p>
                     <img src=""/><p className="FooterLatest_data">11 oct, 2025</p>
                 </div>

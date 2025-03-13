@@ -67,6 +67,7 @@ export default function Testimonial() {
                 { lang === "en" ?
                 "- Assembled roving is formed by joining several threads into one on cross winding machines and used mostly in pultrusion for manufacturing construction materials." : 
                 "- Трощеный ровинг формируется путем соединения нескольких нитей в одну прядь на машинах крестовой намотки и используется в основном в пултрузии для производства строительных материалов."}
+                <br />
                 {lang === "en" ? 
                 "- Direct roving is formed on winders right after coming out of the furnace. It is also used in production of construction materials, but also widely implemented in the fields where more advanced materials produced." : 
                 "- Прямой ровинг формируется на намоточных станках сразу после вытяжки волокна из печи. Он также используется в производстве строительных материалов, но также широко применяется в областях, где производятся более современные материалы."}     
