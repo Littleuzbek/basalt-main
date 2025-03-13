@@ -128,6 +128,13 @@
     padding: 10px 0;
 }
 
+.list > ol > li:hover > h3,
+.list > ol > li:hover > ul,
+.list > ol > li:hover::marker {
+    color: var(--orange);
+    transition: .3s;
+}
+
 .list > ol > li:nth-child(1) {
     padding: 0 0 10px;
 }

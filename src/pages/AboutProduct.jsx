@@ -175,7 +175,7 @@ export default function AboutProduct() {
                         >
                           <h3>
                             {title}{" "}
-                            <button
+                            {/* <button
                               className="underCheck"
                               onClick={() =>
                                 navigate(
@@ -187,7 +187,7 @@ export default function AboutProduct() {
                             >
                               <FaArrowRight />
                               {lang === "en" ? " Checkout" : " Проверить"}
-                            </button>
+                            </button> */}
                           </h3>
                           <ul>
                             {(lang === "en"
@@ -199,11 +199,11 @@ export default function AboutProduct() {
                             ))}
                           </ul>
 
-                          {product?.adv?.list?.checkoutBtn?.at(index) && (
+                          {/* {product?.adv?.list?.checkoutBtn?.at(index) && (
                             <button className="underCheck2" onClick={() => navigate(`/${lang}/${product?.adv?.list?.checkoutBtn?.at(index)}`)}>
                                 {lang === "en" ? "Checkout" : "Проверить"}
                             </button>
-                          )}
+                          )} */}
                         </li>
                       ))}
                     </ol>
