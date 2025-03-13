@@ -66,21 +66,22 @@
     -webkit-user-drag: none;
 } */
 
-.slick-initialized .slick-slide,
-.slick-initialized .slick-slide > div,
-.slick-initialized .slick-slide > div > div{
+.side-slides > div,
+.side-slides > div > div,
+.side-slides > div > div > div{
     min-height: 150px !important;
+    max-height: 150px !important;
 }
 
-.slick-initialized .slick-slide > div > div{
+.side-slides > div > div > div > div{
     position: relative;
 }
 
-.slick-track{
+.side-slides > div > div > div{
     gap: 5px !important;
 }
 
-.slick-slide img{
+.side-slides > div > div > div > div > div > div > img{
     width: 100%;
     min-height: 150px !important;
     object-fit: cover !important;
@@ -88,12 +89,6 @@
     -webkit-user-drag: none;
     position: relative;
 }
-
-/* .slick-slide img::before{
-    content: "";
-    position: absolute;
-} */
-
 
 .slider-action {
     /* width: 95%; */
