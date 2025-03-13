@@ -130,10 +130,10 @@ export default function Presentation({ images }) {
                     loading="lazy"
                     onClick={() => setSlide(key)}
                   />
-                  {/* <span
+                  <span
                     className={slide === key ? "" : "slide-item"}
                     onClick={() => setSlide(key)}
-                  ></span> */}
+                  ></span>
                 </div>
               ))}
               </span>
