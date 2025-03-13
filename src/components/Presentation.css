@@ -47,7 +47,7 @@
     display: none;
 }
 
-/* .side-slides > div {
+.side-slides > span {
     min-width: 160px;
     height: 100%;
     display: flex;
@@ -58,13 +58,13 @@
     -webkit-user-drag: none;
 }
 
-.side-slides > div > img {
+.side-slides > span > img {
     min-width: 100%;
     height: 100%;
     object-fit: cover;
     user-select: none;
     -webkit-user-drag: none;
-} */
+}
 
 .side-slides > div,
 .side-slides > div > div,

@@ -93,7 +93,7 @@ export default function Presentation({ images }) {
           ref={slidesRef}
           style={images?.length > 1 ? {} : { display: "none" }}
         >
-            <Slider
+            {images?.length > 2 && <Slider
               ref={(slider) => {
                 sliderRef = slider;
               }}
@@ -116,7 +116,28 @@ export default function Presentation({ images }) {
                   ></span>
                 </div>
               ))}
-            </Slider>
+            </Slider>}
+            {
+              images?.length > 2 || <span>
+                {images?.map((image, key) => (
+                <div
+                  key={image}
+                  // style={images?.length === 3 ? { width: "217px" } : {}}
+                >
+                  <img
+                    src={image}
+                    alt=""
+                    loading="lazy"
+                    onClick={() => setSlide(key)}
+                  />
+                  {/* <span
+                    className={slide === key ? "" : "slide-item"}
+                    onClick={() => setSlide(key)}
+                  ></span> */}
+                </div>
+              ))}
+              </span>
+            }
         </div>
         <div
           className="slider-action"
