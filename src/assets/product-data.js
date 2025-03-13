@@ -303,6 +303,8 @@ import fls1 from "./solutionUnderProduct/fls/FLS1.jpg";
 import fls2 from "./solutionUnderProduct/fls/FLS2.jpg";
 import fls3 from "./solutionUnderProduct/fls/FLS3.jpg";
 import fls4 from "./solutionUnderProduct/fls/FLS4.jpg";
+import fls5 from "./solutionUnderProduct/fls/fls-1.jpg";
+import fls6 from "./solutionUnderProduct/fls/fls-2.jpg";
 import sds1 from "./solutionUnderProduct/sds/sds1.jpg";
 import sds2 from "./solutionUnderProduct/sds/sds2.jpg";
 import sds3 from "./solutionUnderProduct/sds/sds3.jpg";
@@ -325,15 +327,15 @@ import wcs3 from "./solutionUnderProduct/wcs/WCS3.jpg";
 import wcs4 from "./solutionUnderProduct/wcs/WCS4.jpg";
 import wcs5 from "./solutionUnderProduct/wcs/WCS5.png";
 import wcs6 from "./solutionUnderProduct/wcs/WCS6.png";
-import pds1 from "./solutionUnderProduct/pds/pds1.jpg"
-import pds2 from "./solutionUnderProduct/pds/pds2.jpg"
-import pds3 from "./solutionUnderProduct/pds/pds3.jpg"
-import pds4 from "./solutionUnderProduct/pds/pds4.jpg"
-import pds5 from "./solutionUnderProduct/pds/pds5.png"
-import lab1 from "./solutionUnderProduct/lab/lab1.jpg"
-import lab2 from "./solutionUnderProduct/lab/lab2.jpg"
-import lab3 from "./solutionUnderProduct/lab/lab3.jpg"
-import lab4 from "./solutionUnderProduct/lab/lab4.jpg"
+import pds1 from "./solutionUnderProduct/pds/pds1.jpg";
+import pds2 from "./solutionUnderProduct/pds/pds2.jpg";
+import pds3 from "./solutionUnderProduct/pds/pds3.jpg";
+import pds4 from "./solutionUnderProduct/pds/pds4.jpg";
+import pds5 from "./solutionUnderProduct/pds/pds5.png";
+import lab1 from "./solutionUnderProduct/lab/lab1.jpg";
+import lab2 from "./solutionUnderProduct/lab/lab2.jpg";
+import lab3 from "./solutionUnderProduct/lab/lab3.jpg";
+import lab4 from "./solutionUnderProduct/lab/lab4.jpg";
 
 import en from "./eng.png";
 import ru from "./rus.png";
@@ -1283,7 +1285,7 @@ export const solFiber = {
         null,
         "complete-plant-automation-system",
         "solutions/monorail-loader-system",
-        "solutions/furnace-loader-system",
+        "furnace-loader-system",
         "solutions/sizing-distribution-system",
         "solutions/chemical-reactor",
         "solutions/raw-materials-handling-system",
@@ -2019,16 +2021,116 @@ export const mls = {
   adv: null,
 };
 
-export const fls = {
+export const fls_1 = {
   images: [fls1, fls2, fls3, fls4],
   videos: null,
   general: {
     title: {
-      en: "Furnace loader system ",
-      ru: "Система загрузки печи",
+      en: "Furnace loader system (FLS-1)",
+      ru: "Система загрузки печи (FLS-1)",
     },
   },
-  adv: null,
+  adv: {
+    list: {
+      title: {
+        en: "About furnace loader system (FLS-1)",
+        ru: "О системе загрузки печи (FLS-1)",
+      },
+      ulListTitle: {
+        en: ["CHARGING SYSTEM:", "BENEFITS:"],
+        ru: ["СИСТЕМА ЗАРЯДКИ:", "ПРЕИМУЩЕСТВА:"],
+      },
+      ulListItem: {
+        en: [
+          [
+            "The batch is evenly spread on the vibrating chute with the help of the charging hopper. The end piece of the vibrating chute is made of heat resistant steel and is exchangeable in order to avoid downtime if repair work is required;",
+            "The movement of the water-cooled paddle is carried out by a lever system connected to a frequency controlled gear motor or servo drive. The paddle pushes the batch evenly from the vibrating chutes into the glass melting end and creates batch piles;",
+            "The batch charger is fixed to a moveable carriage with a rotary frame. The frame turns on a ball bearing which is fixed between the frame and the carriage. The slewing motion of the rotating frame is caused by a controllable pneumatic cylinder;",
+            "The paddle pushes the batch evenly from the vibrating chute into the doghouse and creates batch piles. The speed of the pusher is inverter controlled. The stroke length and the submersion depth of the pushers can be adjusted manually.",
+          ],
+          [
+            "Dust reduction through better sealing;",
+            "Reduction of heat radiation due to heat shield;",
+            "Durability due to stable construction, utilisation of high quality components and excellent workmanship",
+            "Fast paddle change within 20 minutes",
+            "Increased melting rate due to smaller portions of batch",
+            "Homogeneous distribution via swing gear",
+            "Facilitated charging inspection due to included inspection opening within the doghouse cover",
+          ],
+        ],
+        ru: [
+          [
+            "Штат равномерно распределяется по виброжелобу с помощью загрузочной воронки. Концевая часть виброжелоба изготовлена ​​из жаропрочной стали и является сменной, чтобы избежать простоев в случае необходимости проведения ремонтных работ;",
+            "Перемещение водоохлаждаемой лопасти осуществляется рычажной системой, подключенной к частотно-регулируемому мотор-редуктору или сервоприводу. Лопасть равномерно выталкивает шихту из виброжелобов в стекловаренный конец и создает штабеля шихты;",
+            "Загрузчик шихты закреплен на подвижной каретке с поворотной рамой. Рама вращается на шарикоподшипнике, который закреплен между рамой и кареткой. Поворотное движение вращающейся рамы вызывается управляемым пневматическим цилиндром;",
+            "Лопасть равномерно выталкивает шихту из виброжелоба в загрузочный карман и создает штабеля шихты. Скорость толкателя регулируется инвертором. Длина хода и глубина погружения толкателей могут регулироваться вручную.",
+          ],
+          [
+            "Уменьшение пыли за счет лучшей герметизации;",
+            "Уменьшение теплового излучения за счет теплового экрана;",
+            "Долговечность за счет стабильной конструкции, использования высококачественных компонентов и превосходного качества изготовления",
+            "Быстрая смена лопастей в течение 20 минут",
+            "Повышенная скорость плавления за счет меньших порций шихты",
+            "Однородное распределение за счет поворотного механизма",
+            "Упрощенный осмотр загрузки за счет наличия смотрового отверстия в крышке загрузочного кармана",
+            ],
+        ],
+      },
+    },
+  },
+};
+
+export const fls_2 = {
+  images: [fls5, fls6],
+  videos: null,
+  general: {
+    title: {
+      en: "Furnace loader system (FLS-2)",
+      ru: "Система загрузки печи (FLS-2)",
+    },
+  },
+  adv: {
+    list: {
+      title: {
+        en: "About furnace loader system (FLS-2)",
+        ru: "О системе загрузки печи (FLS-2)",
+      },
+      ulListTitle: {
+        en: ["CHARGING SYSTEM:", "BENEFITS:"],
+        ru: ["СИСТЕМА ЗАРЯДКИ:", "ПРЕИМУЩЕСТВА:"],
+      },
+      ulListItem: {
+        en: [
+          [
+            "The batch is evenly spread on the vibrating chute with the help of the charging hopper. The end piece of the vibrating chute is made of heat resistant steel and is exchangeable in order to avoid downtime if repair work is required;",
+            "The movement of the water-cooled paddle is carried out by a lever system connected to a frequency controlled gear motor or servo drive. The paddle pushes the batch evenly from the vibrating chutes into the glass melting end and creates batch piles.",
+          ],
+          [
+           " Better sealing of the doghouse due to the elimination of the rotary motion;",
+            "NOx emission is reduced;",
+            "Furnace energy consumption decreases;",
+            "Easy charging inspection due to included inspection opening within the doghouse cover;",
+            "Fast paddle change within 20 minutes;",
+            "Suitable for preheated batch."
+          ]
+        ],
+        ru: [
+          [
+            "Штат равномерно распределяется по виброжелобу с помощью загрузочной воронки. Концевая часть виброжелоба изготовлена ​​из жаропрочной стали и является сменной, чтобы избежать простоев при необходимости проведения ремонтных работ;",
+            "Перемещение водоохлаждаемой лопасти осуществляется рычажной системой, подключенной к частотно-регулируемому мотор-редуктору или сервоприводу. Лопасть равномерно выталкивает шихту из виброжелобов в стекловаренный конец и создает стопки шихты.",
+          ],
+          [
+            "Лучшая герметизация загрузочного кармана благодаря устранению вращательного движения;",
+            "Снижается выброс NOx;",
+            "Снижается потребление энергии печью;",
+            "Простая проверка загрузки благодаря наличию смотрового отверстия в крышке загрузочного кармана;",
+            "Быстрая замена лопастей в течение 20 минут;",
+            "Подходит для предварительно нагретой партии."
+          ]
+        ]
+      },
+    },
+  },
 };
 
 export const sds = {
@@ -2177,20 +2279,14 @@ export const wcs = {
             "Насосный блок;",
             "Бачок охлаждающей воды.",
           ],
-        ]
+        ],
       },
     },
   },
 };
 
 export const pds = {
-  images: [
-    pds1,
-    pds2,
-    pds3,
-    pds4,
-    pds5,
-  ],
+  images: [pds1, pds2, pds3, pds4, pds5],
   videos: null,
   general: {
     title: {
@@ -2202,12 +2298,7 @@ export const pds = {
 };
 
 export const lab = {
-  images: [
-    lab1,
-    lab2,
-    lab3,
-    lab4,
-  ],
+  images: [lab1, lab2, lab3, lab4],
   videos: null,
   general: {
     title: {

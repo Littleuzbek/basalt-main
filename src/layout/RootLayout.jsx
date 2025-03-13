@@ -64,6 +64,11 @@ export default function RootLayout() {
       route: "complete-plant-automation-system",
       en: "complete plant automation system",
       ru: "полная система автоматизации завода"
+    },
+    {
+      route: "furnace-loader-system",
+      en: "furnace loader system",
+      ru: "система печь загрузчик"
     }
   ];
 

@@ -56,7 +56,7 @@ function App() {
           <Route path='solutions/:id' element={<AboutProduct />} loader={productLoader} HydrateFallback={HydrateFallback}/>
           <Route path='technological-furnace-equipment' element={<FurnaceEquipment />}/>
           <Route path='complete-plant-automation-system' element={<PMS />}/>
-          {/* <Route path='complete-plant-automation-system' element={<FLS />}/> */}
+          <Route path='furnace-loader-system' element={<FLS />}/>
           <Route path='news' element={<News />}/>
           <Route path='partners' element={<Partners />}/>
           <Route path='about-us' element={<AboutUs />} />
