@@ -155,16 +155,14 @@ export default function HomeHeader() {
               <li className="home-navigation-item">
                 <NavLink to={`/${lang}/projects`}>{lang === "en" ? "Projects" : "Проекты"}</NavLink>
                 <div className="home-navigation-drop">
-                  <Link to={`/${lang}/projects/rockfiber`}>{lang === "en" ? "Rokfiber" : "Рокфайбер"}</Link>
-                  <Link to={`/${lang}/projects/geobasalt-products`}>
-                    {lang === "en" ? "GEOBASALT PRODUCTS" : "Геобазальтовые изделия"}
-                  </Link>
-                  <Link to={`/${lang}/projects/ecobasalt-group`}>{lang === "en" ? "ECOBASALT GROUP" : "Экобазальтовая группа"}</Link>
-                  <Link to={`/${lang}/projects/goldfiber-pro`}>{lang === "en" ? "GOLDFIBER PRO" : "Голдфайбер про"}</Link>
-                  <Link to={`/${lang}/projects/basalt-wool`}>{lang === "en" ? "BASALT WOOL" : "Базальтовая вата"}</Link>
-                  <Link to={`/${lang}/projects/basfiber-trade`}>{lang === "en" ? "BASFIBER TRADE" : "Торговля бастволокном"}</Link>
+                  <Link to={`/${lang}/projects/rockfiber`}>Rokfiber</Link>
+                  <Link to={`/${lang}/projects/geobasalt-products`}>GEOBASALT PRODUCTS</Link>
+                  <Link to={`/${lang}/projects/ecobasalt-group`}>ECOBASALT GROUP</Link>
+                  <Link to={`/${lang}/projects/goldfiber-pro`}>GOLDFIBER PRO</Link>
+                  <Link to={`/${lang}/projects/basalt-wool`}>BASALT WOOL</Link>
+                  <Link to={`/${lang}/projects/basfiber-trade`}>BASFIBER TRADE</Link>
                   <Link to={`/${lang}/projects/qoraqalpoq-basalt-wool`}>
-                    {lang === "en" ? "QORAQALPOQ BASALTWOOL" : "КОРАКАЛПОК базальтоватная вата"}
+                    QORAQALPOQ BASALTWOOL
                   </Link>
                   <Link to={`/${lang}/projects/basalt-quarry`}>{lang === "en" ? "BASALT QUARRY" : "Базальтовый карьер"}</Link>
                 </div>
