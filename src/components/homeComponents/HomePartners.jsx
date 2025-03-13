@@ -1,3 +1,5 @@
+import { useEffect, useRef } from "react"
+import { useParams } from "react-router"
 import partner1 from "../../assets/Basalt partners/7.png"
 import partner8 from "../../assets/Basalt partners/8.png"
 import partner9 from "../../assets/Basalt partners/9.png"
@@ -22,14 +24,19 @@ import partner27 from "../../assets/Basalt partners/27.png"
 import partner28 from "../../assets/Basalt partners/28.png"
 import partner29 from "../../assets/Basalt partners/29.png"
 import partner30 from "../../assets/Basalt partners/30.png"
+import partner31 from "../../assets/Basalt partners/58.png"
 import NewPartner1 from "../../assets/Basalt partners/NewPartner1.png"
 import NewPartner2 from "../../assets/Basalt partners/NewPartner2.png"
-import { useRef } from "react"
-import { useParams } from "react-router"
 
 export default function HomePartners() {
   const partnerRef = useRef(null);
   const {lang} = useParams();
+
+  useEffect(()=> {
+    const a = partnerRef.current.scrollWidth - partnerRef.current.offsetWidth + 100;
+    console.log(a);
+  },[])
+
   return (
     <div className="partners">
       <h2>{lang === "en" ? "Our Partners" : "Наши Партнеры"}</h2>
@@ -59,20 +66,21 @@ export default function HomePartners() {
           <img src={partner28} loading="lazy" />
           <img src={partner29} loading="lazy" />
           <img src={partner30} loading="lazy" />
+          <img src={partner31} loading="lazy" />
           <img src={NewPartner1} loading="lazy" />
           <img
             src={NewPartner2}
             loading="lazy"
-            onLoad={() => {
-              partnerRef.current.style.setProperty(
-                "--content-width",
-                `-${
-                  partnerRef.current.scrollWidth -
-                  partnerRef.current.offsetWidth +
-                  100
-                }px`
-              );
-            }}
+            // onLoad={() => {
+            //   partnerRef.current.style.setProperty(
+            //     "--content-width",
+            //     `-${
+            //       partnerRef.current.scrollWidth -
+            //       partnerRef.current.offsetWidth +
+            //       100
+            //     }px`
+            //   );
+            // }}
           />
         </div>
       </div>

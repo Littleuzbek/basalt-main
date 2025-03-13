@@ -375,6 +375,6 @@ body {
 
   }
   to{
-    transform: translateX(var(--content-width));
+    transform: translateX(-6277px);
   }
 }
