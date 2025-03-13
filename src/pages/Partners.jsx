@@ -47,6 +47,7 @@ import partner52 from "../assets/Basalt partners/52.png"
 import partner53 from "../assets/Basalt partners/53.png"
 import partner54 from "../assets/Basalt partners/54.png"
 import partner55 from "../assets/Basalt partners/58.png"
+import partner56 from "../assets/Basalt partners/59.png"
 
 import NewPartner1 from "../assets/Basalt partners/NewPartner1.png"
 import NewPartner2 from "../assets/Basalt partners/NewPartner2.png"
@@ -110,6 +111,7 @@ export default function Partners() {
             <img src={partner53} loading="lazy"/>
             <img src={partner54} loading="lazy"/>
             <img src={partner55} loading="lazy"/>
+            <img src={partner56} loading="lazy"/>
             <img src={NewPartner1} loading="lazy"/>
             <img src={NewPartner2} loading="lazy"/>
         </div>
