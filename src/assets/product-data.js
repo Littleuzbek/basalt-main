@@ -5,6 +5,7 @@ import ecobasalt4 from "./basaltPipe/pipe4.jpg";
 import ecobasalt5 from "./basaltPipe/pipe5.jpg";
 import ecobasalt6 from "./basaltPipe/pipe6.jpg";
 import ecobasalt7 from "./solutionPipe/solPipe6.jpg";
+import ecobasaltVid from "./basaltGeogrid/PipeVid.mp4";
 import geogrid2 from "./basaltGeogrid/geogrid2.jpg";
 import geogrid3 from "./basaltGeogrid/geogrid3.jpg";
 import geogrid4 from "./basaltGeogrid/geogrid4.jpg";
@@ -347,6 +348,7 @@ export const basalt_ecobasalt = {
     ecobasalt5,
     ecobasalt6,
   ],
+  videos: [ecobasaltVid],
   general: {
     title: {
       en: "ECOBASALT GROUP",
@@ -408,6 +410,7 @@ export const basalt_ecobasalt = {
 
 export const basalt_geobasalt = {
   images: [geogrid2, geogrid3, geogrid4, geogrid5],
+  videos: [solMeshVid],
   general: {
     title: {
       en: "GEOBASALT PRODUCTS",
@@ -459,6 +462,7 @@ export const basalt_geobasalt = {
 
 export const basalt_fiber = {
   images: [fiber1, fiber2, fiber3],
+  videos: [fiberVid],
   general: {
     title: {
       en: "ROCKFIBER",
@@ -769,6 +773,7 @@ export const basalt_goldfiber = {
 
 export const basalt_wool = {
   images: [wool1, wool3, wool2],
+  videos: [solWoolVid],
   general: {
     title: {
       en: "BASALT WOOL ",
@@ -1067,6 +1072,7 @@ export const basalt_qqwool = {
     qqwool29,
     qqwool30,
   ],
+  videos: [solWoolVid],
   general: {
     title: {
       en: "QORAQALPOQ BASALT WOOL",
