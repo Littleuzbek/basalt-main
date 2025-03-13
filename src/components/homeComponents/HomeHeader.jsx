@@ -125,9 +125,9 @@ export default function HomeHeader() {
                   <h4>{lang === "en" ? "Company" : "компания"}</h4>
                 </div>
                 <div>
-                  <p>{lang === "en" ? "ISO" : "Исо"} 9001:2015 ({lang === "en" ? "ISO" : "Исо"} 9001)</p>
-                  <p>{lang === "en" ? "ISO" : "Исо"} 14001:2019 ({lang === "en" ? "ISO" : "Исо"} 14001)</p>
-                  <p>{lang === "en" ? "ISO" : "Исо"} 45001:2020 ({lang === "en" ? "ISO" : "Исо"} 45001)</p>
+                  <p>ISO 9001:2015 (ISO 9001)</p>
+                  <p>ISO 14001:2019 (ISO 14001)</p>
+                  <p>ISO 45001:2020 (ISO 45001)</p>
                 </div>
               </div>
             </div>
@@ -173,25 +173,25 @@ export default function HomeHeader() {
                 <NavLink to={`/${lang}/solutions`}>{lang === "en" ? "Solutions" : "Решения"}</NavLink>
                 <div className="home-navigation-drop">
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-fiber`}>
-                    {lang === "en" ? "production of Basalt continuous fiber" : "Производство базальтового волокна "}
+                    {lang === "en" ? "production of Basalt continuous fiber" : "ПРОИЗВОДСТВО БНВ (БАЗАЛЬТОВОГО НЕПРЕРЫВНОГО ВОЛОКНА)Производство базальтового волокна "}
                   </Link>
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-rockwool`}>
-                    {lang === "en" ? "production of Basalt rockwool" : "Производство базальтового каменного волокна"}
+                    {lang === "en" ? "production of Basalt rockwool" : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ КАМЕНОЙ ВАТЫ"}
                   </Link>
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-pipes`}>
-                    {lang === "en" ? "production of BRP continuous pipes" : "Производство непрерывных труб BRP"}
+                    {lang === "en" ? "production of BRP continuous pipes" : "ПРОИЗВОДСТВО БАЗАЛЬТА КОМПОЗИТНЫХ ТРУБ"}
                   </Link>
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-chopped-strand`}>
-                    {lang === "en" ? "production of Basalt continuous chopped strand" : "Производство базальтовой непрерывной рубленой нити"}
+                    {lang === "en" ? "production of Basalt continuous chopped strand" : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ ФИБРЫ"}
                   </Link>
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`}>
-                    {lang === "en" ? "production of Basalt reinforcement bars" : "Производство базальтовой арматуры"}
+                    {lang === "en" ? "production of Basalt reinforcement bars" : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ АРМАТУРЫ"}
                   </Link>
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-geogrids`}>
-                    {lang === "en" ? "production of Basalt geogrids and facade mesh" : "Производство базальтовых георешеток и лачевой сетки"}
+                    {lang === "en" ? "production of Basalt geogrids and facade mesh" : "ПРОИЗВОДСТВО БАЗАЛЬТОВЫХ ФАСАДНЫХ И ГЕОСЕТОК"}
                   </Link>
                   <Link to={`/${lang}/solutions/production-of-basalt-continuous-fabric`}>
-                    {lang === "en" ? "production of Basalt fabric" : "производство базальтовой ткани"}
+                    {lang === "en" ? "production of Basalt fabric" : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ КРУЧЕНОЙ НИТИ И ТКАНИ"}
                   </Link>
                 </div>
               </li>
@@ -205,7 +205,7 @@ export default function HomeHeader() {
                 <NavLink to={`/${lang}/about-us`}>{lang === "en" ? "About Us" : "О нас"}</NavLink>
               </li>
               <li>
-                <NavLink to={`/${lang}/contact-us`}>{lang === "en" ? "Contact Us" : "Связаться"}</NavLink>
+                <NavLink to={`/${lang}/contact-us`}>{lang === "en" ? "Contact Us" : "КОНТАКТЫ"}</NavLink>
               </li>
               <li className="home-navigation-item">
                 <div className="lang-container">

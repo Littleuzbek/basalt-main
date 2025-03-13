@@ -21,7 +21,7 @@ export default function Footer() {
                <p>
                 {lang === "en" ? 
                "Special “turnkey” solutions and plants for various businesses in basalt composite industry." :
-               "Специальные решения и установки «под ключ» для различных предприятий в индустрии базальтокомпозитных материалов."}
+               "Специальные решения и заводы «под ключ» по разным направлениям в индустрии базальтокомпозитных материалов."}
                </p>
                <div className="Footer_phone-number--div"><img src={Phoneicon} className="Phone_icon-footer"/><p>+998 (93) 183-01-10</p></div>
                <span className="Footer_space-line--long" />
@@ -33,49 +33,49 @@ export default function Footer() {
                <span className="Footer_space-line--short" />
                <div>
                 <div 
-                    onClick={() => navigate("/solutions/production-of-basalt-continuous-fiber")}
+                    onClick={() => navigate(`${lang}/solutions/production-of-basalt-continuous-fiber`)}
                     className="Footer_service-div">
                         <img src={Directicon} className="Direction_icon" /> 
-                        <p>{lang === "en" ? "Basalt continuous fiber" : "Базальтовое непрерывное волокно"}</p>
+                        <p>{lang === "en" ? "Basalt continuous fiber" : "Производство БНВ Производство базальтового волокна"}</p>
                 </div>
                 <div 
-                    onClick={() => navigate("/solutions/production-of-basalt-continuous-rockwool")}
+                    onClick={() => navigate(`${lang}/solutions/production-of-basalt-continuous-rockwool`)}
                     className="Footer_service-div"
                 >
                         <img src={Directicon} className="Direction_icon"/> 
-                        <p>{lang === "en" ? "Basalt rockwool" : "Базальтовая вата"}</p>
+                        <p>{lang === "en" ? "Basalt rockwool" : "Производство базальтовой каменой ваты"}</p>
                 </div>
                 <div 
-                    onClick={() => navigate("/solutions/production-of-basalt-continuous-pipes")}
+                    onClick={() => navigate(`${lang}/solutions/production-of-basalt-continuous-pipes`)}
                     className="Footer_service-div"
                 >
                     <img src={Directicon} className="Direction_icon"/> 
-                    <p>{lang === "en" ? "BRP continuous pipe" : "BRP непрерывная труба"}</p>
+                    <p>{lang === "en" ? "BRP continuous pipe" : "Производство базальта композитных труб"}</p>
                 </div>
                 <div 
-                    onClick={() => navigate("/solutions/production-of-basalt-continuous-chopped-strand")}
+                    onClick={() => navigate(`${lang}/solutions/production-of-basalt-continuous-chopped-strand`)}
                     className="Footer_service-div"
                 >
                         <img src={Directicon} className="Direction_icon"/> 
                         <p>
                             {lang === "en" ? 
                             "Basalt continuous chopped strand" : 
-                            "Базальтовая непрерывная рубленая нить"}
+                            "Производство базальтовой фибры"}
                         </p>
                 </div>
                 <div 
-                    onClick={() => navigate("/solutions/production-of-basalt-continuous-reinforcement-bars")}
+                    onClick={() => navigate(`${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`)}
                     className="Footer_service-div"
                 >
                     <img src={Directicon} className="Direction_icon"/> 
-                    <p>{lang === "en" ? "Basalt reinforcement bars" : "Базальтовая арматура"}</p>
+                    <p>{lang === "en" ? "Basalt reinforcement bars" : "Производство базальтовой арматуры"}</p>
                 </div>
                 <div 
-                    onClick={() => navigate("/solutions/production-of-basalt-continuous-geogrids")}
+                    onClick={() => navigate(`${lang}/solutions/production-of-basalt-continuous-geogrids`)}
                     className="Footer_service-div"
                 >
                     <img src={Directicon} className="Direction_icon"/> 
-                    <p>{lang === "en" ? "Basalt geogrids and facade mesh" : "Базальтовые георешетки и фасадные сетки"}</p>
+                    <p>{lang === "en" ? "Basalt geogrids and facade mesh" : "Производство базольтовых фасадных и геосеток"}</p>
                 </div>
                </div> 
             </div>
@@ -85,7 +85,7 @@ export default function Footer() {
                
                <span className="Footer_space-line--short" />
 
-               <div className="Footer_latest-imagesdiv" onClick={() => navigate("/news")}>
+               <div className="Footer_latest-imagesdiv" onClick={() => navigate(`${lang}/news`)}>
                 <img src={news1} className="FooterLatest_images"/>
                 <div>
                     <p className="FooterLatest_text">
@@ -99,7 +99,7 @@ export default function Footer() {
                 
                <span />
 
-               <div className="Footer_latest-imagesdiv" onClick={() => navigate("/news")}>
+               <div className="Footer_latest-imagesdiv" onClick={() => navigate(`${lang}/news`)}>
                 <img src={news2} className="FooterLatest_images"/>  
                 <div>
                     <p className="FooterLatest_text">

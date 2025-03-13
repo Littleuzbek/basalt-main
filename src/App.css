@@ -113,6 +113,14 @@ body {
   flex-direction: column;
 }
 
+.main-header > div > ul > li:nth-child(3):hover > .navigation-drop {
+  left: -200px;
+}
+
+.main-header > div > ul > li:nth-last-child(1):hover > .navigation-drop {
+  left: 10%;
+}
+
 .navigation-drop > a{
   width: 100%;
   color: black;

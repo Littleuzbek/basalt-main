@@ -30,7 +30,7 @@ export default function Testimonial() {
     <div className="testimonial-contatiner">
       <div>
       <div className="testimonial" data-aos="fade-right" data-aos-duration="2000">
-          <h2> {lang === "en" ? "END PRODUCTS" : "ЕНД ПРОДУКТЫ"}</h2>
+          <h2> {lang === "en" ? "END PRODUCTS" : "КОНЕЧНЫЙ ПРОДУКТ"}</h2>
           <span></span>
           <EndProductSlider images={images}/>
         </div>
@@ -60,16 +60,16 @@ export default function Testimonial() {
                 <div style={offer === 2 ? {backgroundColor: "var(--grayish)", color: "white"} : {}}>
                   {lang === "en" ?
                   "What is the difference between assembled and direct roving?" : 
-                  "В чем разница между собранным и прямым ровингом?"}
+                  "В чем разница между трощеным и прямым ровингом?"}
                 </div>
               </div>
               {offer === 2 &&<p >
                 { lang === "en" ?
                 "- Assembled roving is formed by joining several threads into one on cross winding machines and used mostly in pultrusion for manufacturing construction materials." : 
-                "- Собранный ровинг формируется путем соединения нескольких нитей в одну на машинах крестовой намотки и используется в основном в пултрузии для производства строительных материалов."}
+                "- Трощеный ровинг формируется путем соединения нескольких нитей в одну прядь на машинах крестовой намотки и используется в основном в пултрузии для производства строительных материалов."}
                 {lang === "en" ? 
                 "- Direct roving is formed on winders right after coming out of the furnace. It is also used in production of construction materials, but also widely implemented in the fields where more advanced materials produced." : 
-                "- Прямой ровинг формируется на намоточных станках сразу после выхода из печи. Он также используется в производстве строительных материалов, но также широко применяется в областях, где производятся более современные материалы."}     
+                "- Прямой ровинг формируется на намоточных станках сразу после вытяжки волокна из печи. Он также используется в производстве строительных материалов, но также широко применяется в областях, где производятся более современные материалы."}     
               </p>}
             </div>
             <div className="offer" onClick={() => offerHandler(3)}>

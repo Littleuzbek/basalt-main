@@ -16,7 +16,7 @@ export default function HomeNews() {
     <div className="latest-news-container">
       {location.pathname.includes("news") || 
       <>
-        <h2>{lang === "en" ? "Our Latest News" : "Наши Последние Новости"}</h2>
+        <h2>{lang === "en" ? "News Blog" : "Блог Новостей"}</h2>
         <span></span>
       </>}
       <div className="news">

@@ -53,7 +53,7 @@ Name: ${sortedName}
 Email: ${sortedMail}
 Phone: ${sortedTel}
 Message: ${sortedMessage}
-Time: ${day}.${month}.${year}, ${hours}.${minutes}
+Time: ${day}.${month}.${year}, ${hours}:${minutes}
     `;
 
       const token = "7706771469:AAHA_Y0Gct4ke2MXAFuVOF_uvBByGoa6cNQ";
@@ -102,9 +102,9 @@ Time: ${day}.${month}.${year}, ${hours}.${minutes}
               <TbRubberStamp className="_icon" />
               <span>
                 <h1>{lang === "en" ? "Certificates" : "Сертификаты"}</h1>
-                <p>{lang === "en" ? "ISO" : "Исо"} 9001:2015 ({lang === "en" ? "ISO" : "Исо"} 9001)</p>
-                <p>{lang === "en" ? "ISO" : "Исо"} 14001:2019 ({lang === "en" ? "ISO" : "Исо"} 14001)</p>
-                <p>{lang === "en" ? "ISO" : "Исо"} 45001:2020 ({lang === "en" ? "ISO" : "Исо"} 45001)</p>
+                <p>ISO 9001:2015 (ISO 9001)</p>
+                <p>ISO 14001:2019 (ISO 14001)</p>
+                <p>ISO 45001:2020 (ISO 45001)</p>
               </span>
             </div>
           </div>
@@ -146,7 +146,7 @@ Time: ${day}.${month}.${year}, ${hours}.${minutes}
 
         <form className="contact-form" onSubmit={(e) => submitHandler(e)}>
           <p>{lang === "en" ? "Let's talk about your project" : "Давайте поговорим о вашем проекте"}</p>
-          <h1>{lang === "en" ? "Information request" : "Запрос информации "}</h1>
+          <h1>{lang === "en" ? "Information request" : "Заполните для запроса"}</h1>
           <input type="text" placeholder={lang === "en" ? "Name*" : "Имя*"} ref={name} required />
           <input type="email" placeholder={lang === "en" ? "Email*" : "Электронной почте*"} ref={email} required />
           <input type="tel" placeholder={lang === "en" ? "Phone*" : "Телефон*"} ref={tel} required/>

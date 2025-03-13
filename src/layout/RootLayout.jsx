@@ -52,7 +52,7 @@ export default function RootLayout() {
     },
     {
       route: "contact-us",
-      ru: "связаться с нами", 
+      ru: "Свяжитесь с нами", 
       en: "contact us"
     },
     {
@@ -198,7 +198,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of Basalt continuous fiber"
-                    : "Производство базальтового волокна "}
+                    : "ПРОИЗВОДСТВО БНВ (БАЗАЛЬТОВОГО НЕПРЕРЫВНОГО ВОЛОКНА)Производство базальтового волокна"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-rockwool`}
@@ -206,7 +206,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of Basalt rockwool"
-                    : "Производство базальтового каменного волокна"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ КАМЕНОЙ ВАТЫ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-pipes`}
@@ -214,7 +214,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of BRP continuous pipes"
-                    : "Производство непрерывных труб BRP"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТА КОМПОЗИТНЫХ ТРУБ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-chopped-strand`}
@@ -222,7 +222,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of Basalt continuous chopped strand"
-                    : "Производство базальтовой непрерывной рубленой нити"}
+                    : "ППРОИЗВОДСТВО БАЗАЛЬТОВОЙ ФИБРЫ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-reinforcement-bars`}
@@ -230,7 +230,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of Basalt reinforcement bars"
-                    : "Производство базальтовой арматуры"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ АРМАТУРЫ"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-geogrids`}
@@ -238,7 +238,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of Basalt geogrids and facade mesh"
-                    : "Производство базальтовых георешеток и лачевой сетки"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВЫХ ФАСАДНЫХ И ГЕОСЕТОК"}
                 </Link>
                 <Link
                   to={`/${lang}/solutions/production-of-basalt-continuous-fabric`}
@@ -246,7 +246,7 @@ export default function RootLayout() {
                 >
                   {lang === "en"
                     ? "production of Basalt fabric"
-                    : "производство базальтовой ткани"}
+                    : "ПРОИЗВОДСТВО БАЗАЛЬТОВОЙ КРУЧЕНОЙ НИТИ И ТКАНИ"}
                 </Link>
               </div>
             </li>
