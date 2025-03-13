@@ -1,8 +1,15 @@
 import "../components/AboutProduct.css";
 import Presentation from "../components/Presentation";
-import { Link, data, useLoaderData, useNavigate, useParams } from "react-router";
+import {
+  Link,
+  data,
+  useLoaderData,
+  useNavigate,
+  useParams,
+} from "react-router";
 import { Fragment, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function AboutProduct() {
   const [type, setType] = useState(1);
@@ -166,7 +173,22 @@ export default function AboutProduct() {
                           style={index >= 9 ? { margin: "0 0 0 9px" } : {}}
                           key={title + index}
                         >
-                          <h3>{title}</h3>
+                          <h3>
+                            {title}{" "}
+                            <button
+                              className="underCheck"
+                              onClick={() =>
+                                navigate(
+                                  `/${lang}/${product?.adv?.list?.checkoutBtn?.at(
+                                    index
+                                  )}`
+                                )
+                              }
+                            >
+                              <FaArrowRight />
+                              {lang === "en" ? " Checkout" : " Проверить"}
+                            </button>
+                          </h3>
                           <ul>
                             {(lang === "en"
                               ? product?.adv?.list?.olListItem?.en
@@ -177,11 +199,11 @@ export default function AboutProduct() {
                             ))}
                           </ul>
 
-                          {product?.adv?.list?.checkoutBtn?.at(index) && (
+                          {/* {product?.adv?.list?.checkoutBtn?.at(index) && (
                             <button className="underCheck" onClick={() => navigate(`/${lang}/${product?.adv?.list?.checkoutBtn?.at(index)}`)}>
                                 {lang === "en" ? "Checkout" : "Проверить"}
                             </button>
-                          )}
+                          )} */}
                         </li>
                       ))}
                     </ol>
@@ -247,21 +269,32 @@ export const productLoader = async ({ params }) => {
       import("../assets/product-data").then((m) => m.burnerTyped),
     "burner-type-h": () =>
       import("../assets/product-data").then((m) => m.burnerTypeh),
-    "winders": () => import("../assets/product-data").then((m) => m.winding),
-    "plant-automation-system": () => import("../assets/product-data").then((m) => m.pms),
-    "measurement-and-control-equipments": () => import("../assets/product-data").then((m) => m.control),
-    "scada": () => import("../assets/product-data").then((m) => m.scada),
-    "monorail-loader-system": () => import("../assets/product-data").then((m) => m.mls),
+    winders: () => import("../assets/product-data").then((m) => m.winding),
+    "plant-automation-system": () =>
+      import("../assets/product-data").then((m) => m.pms),
+    "measurement-and-control-equipments": () =>
+      import("../assets/product-data").then((m) => m.control),
+    scada: () => import("../assets/product-data").then((m) => m.scada),
+    "monorail-loader-system": () =>
+      import("../assets/product-data").then((m) => m.mls),
     "fls-1": () => import("../assets/product-data").then((m) => m.fls_1),
     "fls-2": () => import("../assets/product-data").then((m) => m.fls_2),
-    "sizing-distribution-system": () => import("../assets/product-data").then((m) => m.sds),
-    "chemical-reactor": () => import("../assets/product-data").then((m) => m.chr),
-    "raw-materials-handling-system": () => import("../assets/product-data").then((m) => m.rhms),
-    "waste-water-treatment-and-supply": () => import("../assets/product-data").then((m) => m.wwts),
-    "compressed-air-system": () => import("../assets/product-data").then((m) => m.cas),
-    "water-cooling-systems": () => import("../assets/product-data").then((m) => m.wcs),
-    "product-drier-system": () => import("../assets/product-data").then((m) => m.pds),
-    "laboratory-complex": () => import("../assets/product-data").then((m) => m.lab),
+    "sizing-distribution-system": () =>
+      import("../assets/product-data").then((m) => m.sds),
+    "chemical-reactor": () =>
+      import("../assets/product-data").then((m) => m.chr),
+    "raw-materials-handling-system": () =>
+      import("../assets/product-data").then((m) => m.rhms),
+    "waste-water-treatment-and-supply": () =>
+      import("../assets/product-data").then((m) => m.wwts),
+    "compressed-air-system": () =>
+      import("../assets/product-data").then((m) => m.cas),
+    "water-cooling-systems": () =>
+      import("../assets/product-data").then((m) => m.wcs),
+    "product-drier-system": () =>
+      import("../assets/product-data").then((m) => m.pds),
+    "laboratory-complex": () =>
+      import("../assets/product-data").then((m) => m.lab),
   };
 
   if (routes[id]) {
