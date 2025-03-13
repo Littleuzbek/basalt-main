@@ -124,10 +124,12 @@
   padding: 15px 20px;
 }
 
+.pms > div > h4,
 .furnace-equipment:nth-child(2) > div > h4 {
   padding: 15px;
 }
 
+.pms:hover > div,
 .furnace-loader:hover > div,
 .furnace-equipment:hover > div{
   transform: translateY(-38%);

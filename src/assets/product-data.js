@@ -1734,7 +1734,31 @@ export const burnerTyped = {
     },
     p: null,
   },
-  adv: null,
+  adv: {
+    list: {
+      title: {
+        en: "About burners D-type",
+        ru: "О горелках D-типа",
+      },
+      ulListTitle: null,
+      ulListItem: {
+        en: [
+            "D-FLAME gas burner is installed as an underport-burner in regenerative cross fired or end fired furnaces. Its design enables the furnace operator to adjust the flame formation smoothly within a wide range – from short and sharp to long and soft.",
+            "With the D-FLAME burner, both gas velocity and streaming type, from laminar to turbulent, can be controlled. If the fuel throughput remains the same, the velocity and mixing impulse can be varied as desired.",
+            "This is achieved through two separate nozzles inside the burner lance. The gas quantity for each nozzle can be controlled. Consequently the velocity is amended at the exit of the burner.",
+            "By adjusting the position of the inner nozzle toward the outer nozzle, the mixing impulse of both gas streams can be optimised to suit the furnace conditions.",
+            "With this technical solution, the operator is able to adjust the flame formation smoothly to suit the furnace layout conditions and melting technology, without being forced to change the nozzles themselves.",
+        ],
+        ru: [
+              "Газовая горелка D-FLAME устанавливается в качестве нижней горелки в регенеративных печах с поперечным или торцевым пламенем. Ее конструкция позволяет оператору печи плавно регулировать формирование пламени в широком диапазоне — от короткого и острого до длинного и мягкого.",
+              "С помощью горелки D-FLAME можно контролировать как скорость газа, так и тип потока — от ламинарного до турбулентного. Если расход топлива остается прежним, скорость и импульс смешивания можно изменять по желанию.",
+              "Это достигается с помощью двух отдельных сопел внутри фурмы горелки. Количество газа для каждого сопла можно контролировать. Следовательно, скорость корректируется на выходе горелки.",
+              "Регулируя положение внутреннего сопла по отношению к внешнему соплу, можно оптимизировать импульс смешивания обоих газовых потоков в соответствии с условиями печи.",
+              "Благодаря этому техническому решению оператор может плавно регулировать формирование пламени в соответствии с условиями компоновки печи и технологией плавки, не прибегая к необходимости менять сами сопла",
+        ],
+      },
+    },
+  },
 };
 
 export const burnerTypeh = {
@@ -1747,7 +1771,72 @@ export const burnerTypeh = {
     },
     p: null,
   },
-  adv: null,
+  adv: {
+    list: {
+      title: {
+        en: "",
+        ru: ""
+      },
+      ulListTitle: {
+        en: [
+          null, 
+          "The industrial burner can be operated with all types of gas (natural gas, LPG air mixture and biogas) and all types of oil (heavy fuel oil, light fuel oil). Therefore the casing is only equipped with the relevant burner lance:",
+          null,
+          "FACTS:"
+        ],
+        ru: [
+          null, 
+          "Промышленная горелка может работать на всех видах газа (природный газ, смесь сжиженного нефтяного газа с воздухом и биогаз) и всех видах нефти (мазут, легкое топливо). Поэтому корпус оснащается только соответствующей фурмой горелки:",
+          null,
+          "ФАКТЫ:"
+        ]
+      },
+      ulListItem: {
+        en: [
+          [
+            "The industrial burner, type H, is a burner with an air casing containing a high temperature-resistant inner lining. Hereby the burner is damped against noise, becomes temperature resistant and is suitable for combustion air temperatures of up to max. 850 °C.",
+            "The entire combustion air is force-supplied to the burner by air fans."
+          ],
+          [  
+            "D-FLAME MC for all types of gas;",
+            "Multi Oil Burner MOB for all types of oil;",
+            "An appropriate burner block made of suitable refractory material has to be provided for the burner at the furnace."
+          ],
+          [
+            "The industrial burner type H is especially suitable for the high temperature area at recuperative fired glass melting plants because of its robustness and immunity to back-temperatures.",
+            "The connections at the burner lances D-FLAME for gas and MOB for oil are made by way of a quick-release coupling. The connection for the preheated combustion air is made through a standard flange according to PN (nominal pressure) 10."
+          ],
+          [
+            "Used for recuperative furnaces (end fired or cross fired);",
+            "Suitable for hot air up to 850 °C",
+            "Firing with oil or gas;",
+            "Ceramic or blanket lining for heat insulation and noise reduction."
+          ]
+        ],
+        ru: [
+          [
+            "Промышленная горелка типа H представляет собой горелку с воздушным кожухом, содержащим внутреннюю футеровку, устойчивую к высоким температурам. Благодаря этому горелка шумоизолируется, становится термостойкой и подходит для температур воздуха для горения до макс. 850 °C.",
+            "Весь воздух для горения принудительно подается в горелку с помощью воздушных вентиляторов."
+            ],
+            [
+            "D-FLAME MC для всех типов газа;",
+            "Многотопливная горелка MOB для всех типов масла;",
+            "Для горелки в печи необходимо предусмотреть соответствующий блок горелки из подходящего огнеупорного материала."
+            ],
+            [
+            "Промышленная горелка типа H особенно подходит для высокотемпературной зоны на рекуперативных стекловаренных заводах из-за ее прочности и устойчивости к обратным температурам.",
+            "Соединения на фурмах горелки D-FLAME для газа и MOB для масла выполнены с помощью быстроразъемного соединения. Соединение для предварительно нагретого воздуха для горения выполнено через стандартный фланец в соответствии с PN (номинальное давление) 10."
+            ],
+            [
+            "Используется для рекуперативных печей (с подковообразным или поперечным пламенем);",
+            "Подходит для горячего воздуха до 850 °C",
+            "Обжиг на масле или газе;",
+            "Керамическая или футеровочная подложка для теплоизоляции и снижения шума."
+            ]
+        ]
+      }
+    }
+  },
 };
 
 export const winding = {
@@ -2073,7 +2162,7 @@ export const fls_1 = {
             "Повышенная скорость плавления за счет меньших порций шихты",
             "Однородное распределение за счет поворотного механизма",
             "Упрощенный осмотр загрузки за счет наличия смотрового отверстия в крышке загрузочного кармана",
-            ],
+          ],
         ],
       },
     },
@@ -2106,13 +2195,13 @@ export const fls_2 = {
             "The movement of the water-cooled paddle is carried out by a lever system connected to a frequency controlled gear motor or servo drive. The paddle pushes the batch evenly from the vibrating chutes into the glass melting end and creates batch piles.",
           ],
           [
-           " Better sealing of the doghouse due to the elimination of the rotary motion;",
+            " Better sealing of the doghouse due to the elimination of the rotary motion;",
             "NOx emission is reduced;",
             "Furnace energy consumption decreases;",
             "Easy charging inspection due to included inspection opening within the doghouse cover;",
             "Fast paddle change within 20 minutes;",
-            "Suitable for preheated batch."
-          ]
+            "Suitable for preheated batch.",
+          ],
         ],
         ru: [
           [
@@ -2125,9 +2214,9 @@ export const fls_2 = {
             "Снижается потребление энергии печью;",
             "Простая проверка загрузки благодаря наличию смотрового отверстия в крышке загрузочного кармана;",
             "Быстрая замена лопастей в течение 20 минут;",
-            "Подходит для предварительно нагретой партии."
-          ]
-        ]
+            "Подходит для предварительно нагретой партии.",
+          ],
+        ],
       },
     },
   },

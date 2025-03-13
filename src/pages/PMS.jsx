@@ -9,7 +9,7 @@ export default function PMS() {
   return (
     <div className="projects-page">
       <div>
-      <div className="project-cardd furnace-equipment">
+      <div className="project-cardd pms">
             <img src={pms1} loading="lazy" alt="" />
             <div>
               <h4>
