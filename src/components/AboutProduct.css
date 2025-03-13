@@ -128,9 +128,9 @@
     padding: 10px 0;
 }
 
-.list > ol > li:hover > h3,
-.list > ol > li:hover > ul,
-.list > ol > li:hover::marker {
+.link-provider:hover > h3,
+.link-provider:hover > ul,
+.link-provider:hover::marker {
     color: var(--orange);
     transition: .3s;
 }

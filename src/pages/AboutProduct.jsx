@@ -170,8 +170,11 @@ export default function AboutProduct() {
                         : product?.adv?.list?.olListTitle?.ru
                       )?.map((title, index) => (
                         <li
+                          className={product?.adv?.list?.checkoutBtn?.at(index) ? `link-provider` : ""}
                           style={index >= 9 ? { margin: "0 0 0 9px" } : {}}
                           key={title + index}
+                          onClick={() => {return product?.adv?.list?.checkoutBtn?.at(index) ?
+                            navigate(`/${lang}/${product?.adv?.list?.checkoutBtn?.at(index)}`) : ""}}
                         >
                           <h3>
                             {title}{" "}
