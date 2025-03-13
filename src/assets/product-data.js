@@ -4,7 +4,7 @@ import ecobasalt3 from "./basaltPipe/pipe3.jpg";
 import ecobasalt4 from "./basaltPipe/pipe4.jpg";
 import ecobasalt5 from "./basaltPipe/pipe5.jpg";
 import ecobasalt6 from "./basaltPipe/pipe6.jpg";
-import geogrid1 from "./basaltGeogrid/geogrid1.jpg";
+import ecobasalt7 from "./solutionPipe/solPipe6.jpg";
 import geogrid2 from "./basaltGeogrid/geogrid2.jpg";
 import geogrid3 from "./basaltGeogrid/geogrid3.jpg";
 import geogrid4 from "./basaltGeogrid/geogrid4.jpg";
@@ -339,6 +339,7 @@ import ru from "./rus.png";
 
 export const basalt_ecobasalt = {
   images: [
+    ecobasalt7,
     ecobasalt1,
     ecobasalt2,
     ecobasalt3,
@@ -406,7 +407,7 @@ export const basalt_ecobasalt = {
 };
 
 export const basalt_geobasalt = {
-  images: [geogrid1, geogrid2, geogrid3, geogrid4, geogrid5],
+  images: [geogrid2, geogrid3, geogrid4, geogrid5],
   general: {
     title: {
       en: "GEOBASALT PRODUCTS",

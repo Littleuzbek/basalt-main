@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router";
 import fiber from "../assets/basaltRockfiber/fiber1.jpg";
 import geobasalt from "../assets/basaltGeogrid/geogrid2.jpg";
 import ecobasalt from "../assets/basaltPipe/pipe4.jpg";
-import goldfiber from "../assets/basaltGoldfiber/GOLDFIBER-37.jpg";
+import goldfiber from "../assets/basaltGoldfiber/GOLDFIBER-31.jpg";
 import wool from "../assets/basaltWool/wool3.jpg";
 import trade from "../assets/basaltBasfiber/basfiber32.jpg";
 import qqwool from "../assets/basaltQWool/qqWool3.jpg";
