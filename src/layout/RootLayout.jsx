@@ -55,6 +55,16 @@ export default function RootLayout() {
       ru: "связаться с нами", 
       en: "contact us"
     },
+    {
+      route: "technological-furnace-equipment",
+      en: "technological furnace equipment",
+      ru: "технологическое печное оборудование"
+    },
+    {
+      route: "complete-plant-automation-system",
+      en: "complete plant automation system",
+      ru: "полная система автоматизации завода"
+    }
   ];
 
   useEffect(() => {
@@ -105,6 +115,7 @@ export default function RootLayout() {
     }, 100);
   }
   
+  console.log(link.pathname);
   return (
     <>
       <div
