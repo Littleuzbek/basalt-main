@@ -98,7 +98,7 @@
 
 .solution-card > div > h4,
 .solution-slider-card > div > h4{
-  padding: 13px 20px;
+  padding: 21px 20px;
 }
 
 .solution-card:hover > div, 
@@ -106,8 +106,13 @@
   transform: translateY(-38%);
 } 
 
-#solution-slider-card > img{
+#solution-slider-card > div > h4{
+  padding: 10px 20px 16px;
+}
+
+.solution-slider-card > img{
   min-height: 260px;
+  max-height: 260px;
 }
 
 .furnace-equipment > div > h4 {
