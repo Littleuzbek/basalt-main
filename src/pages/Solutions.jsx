@@ -30,7 +30,7 @@ export default function Solutions() {
                   : "Производство базальтового непрерывного волокна"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(`/${lang}/solutions/production-of-basalt-continuous-fiber`)
@@ -50,7 +50,7 @@ export default function Solutions() {
                   : "Производство базальтовой минеральной ваты"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(
@@ -72,7 +72,7 @@ export default function Solutions() {
                   : "Производство базальтовых непрерывных труб"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(`/${lang}/solutions/production-of-basalt-continuous-pipes`)
@@ -95,7 +95,7 @@ export default function Solutions() {
                   : "Производство базальтовой непрерывной рубленой нити"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(
@@ -117,7 +117,7 @@ export default function Solutions() {
                   : "Производство базальтовой арматуры"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(
@@ -142,7 +142,7 @@ export default function Solutions() {
                   : "Производство базальтовых Георешеток и фасадной сетки"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(
@@ -164,7 +164,7 @@ export default function Solutions() {
                   : "Производство базальтовой ткани"}
               </h4>
               {/* <p>	Компания ТУЛАПРЕССМАШ производит сменные универсальные формообразователи для решеток перекрытия...</p> */}
-              <div className="moreBtn">
+              <div className={`moreBtn ${lang === "en" ? "" : "hoverBtn"}`}>
                 <button
                   onClick={() =>
                     navigate(

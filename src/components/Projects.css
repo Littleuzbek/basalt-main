@@ -110,6 +110,7 @@
   padding: 10px 20px 16px;
 }
 
+.solution-card > img,
 .solution-slider-card > img{
   min-height: 260px;
   max-height: 260px;
