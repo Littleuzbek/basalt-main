@@ -12,7 +12,7 @@ export default function PMS() {
       <div className="project-cardd pms">
             <img src={pms1} loading="lazy" alt="" />
             <div>
-              <h4>
+              <h4 style={lang === "en" ? {padding: "25px"} : {}}>
                 {lang === "en"
                   ? "Plant automation system"
                   : "Система автоматизации завода"}
