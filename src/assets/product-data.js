@@ -5,7 +5,7 @@ import ecobasalt4 from "./basaltPipe/pipe4.jpg";
 import ecobasalt5 from "./basaltPipe/pipe5.jpg";
 import ecobasalt6 from "./basaltPipe/pipe6.jpg";
 import ecobasalt7 from "./solutionPipe/solPipe6.jpg";
-import ecobasaltVid from "./basaltGeogrid/PipeVid.mp4";
+import ecobasaltVid from "./basaltGeogrid/Pipevid.mp4";
 import geogrid2 from "./basaltGeogrid/geogrid2.jpg";
 import geogrid3 from "./basaltGeogrid/geogrid3.jpg";
 import geogrid4 from "./basaltGeogrid/geogrid4.jpg";
