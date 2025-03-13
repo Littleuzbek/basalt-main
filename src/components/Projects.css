@@ -197,6 +197,23 @@
   /* border: 2px solid var(--orange); */
 }
 
+.underCheck2{
+  width: 200px;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0 0;
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: unset;
+  transition: .5s;
+}
+
+.underCheck2:hover{
+  background-color: var(--orange);
+  color: white;
+  border: 2px solid var(--orange);
+}
+
 #slider-sm{
   display: none !important;
 }

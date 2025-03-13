@@ -199,11 +199,11 @@ export default function AboutProduct() {
                             ))}
                           </ul>
 
-                          {/* {product?.adv?.list?.checkoutBtn?.at(index) && (
-                            <button className="underCheck" onClick={() => navigate(`/${lang}/${product?.adv?.list?.checkoutBtn?.at(index)}`)}>
+                          {product?.adv?.list?.checkoutBtn?.at(index) && (
+                            <button className="underCheck2" onClick={() => navigate(`/${lang}/${product?.adv?.list?.checkoutBtn?.at(index)}`)}>
                                 {lang === "en" ? "Checkout" : "Проверить"}
                             </button>
-                          )} */}
+                          )}
                         </li>
                       ))}
                     </ol>
