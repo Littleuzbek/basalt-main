@@ -280,7 +280,7 @@ export default function ProjectSlider() {
             >
               <img loading="lazy" src={qqwool} alt="" />
               <div>
-                <h4 style={{ padding: "12px 20px" }}>
+                <h4 style={lang === "en" ? {} : { padding: "12px 20px" } }>
                   {lang === "en"
                     ? "QORAQALPOQ BASALTWOOL"
                     : "КОРАКАЛПОК БАЗАЛЬТОВАЯ ВАТА"}
